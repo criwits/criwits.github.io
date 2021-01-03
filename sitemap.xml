@@ -3,15 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://criwits.me/</loc>
+    <lastmod>2021-01-03T22:17:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/post/first/</loc>
+    <lastmod>2021-01-03T22:17:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/post/</loc>
+    <lastmod>2021-01-03T22:17:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/about/</loc>
+    <lastmod>2021-01-03T22:05:04+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://criwits.me/authors/</loc>
   </url>
   
   <url>
     <loc>http://criwits.me/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://criwits.me/</loc>
   </url>
   
   <url>
