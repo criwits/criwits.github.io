@@ -3,11 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://criwits.me/authors/</loc>
+  </url>
+  
+  <url>
     <loc>http://criwits.me/categories/</loc>
   </url>
   
   <url>
     <loc>http://criwits.me/</loc>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/series/</loc>
   </url>
   
   <url>
