@@ -5,17 +5,7 @@
     <link>http://criwits.me/</link>
     <description>Recent content on CRIWITS — Hans Wan 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Jan 2021 22:17:00 +0800</lastBuildDate><atom:link href="http://criwits.me/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First</title>
-      <link>http://criwits.me/post/first/</link>
-      <pubDate>Sun, 03 Jan 2021 22:17:00 +0800</pubDate>
-      
-      <guid>http://criwits.me/post/first/</guid>
-      <description>文帝帝国第一公理：文迪大帝总资产很多。
-114514: &amp;quot;114514&amp;quot;, 58596: &amp;quot;114*514&amp;quot;, 49654: &amp;quot;11*4514&amp;quot;, 45804: &amp;quot;11451*4&amp;quot;, 23256: &amp;quot;114*51*4&amp;quot;, 22616: &amp;quot;11*4*514&amp;quot;, 19844: &amp;quot;11*451*4&amp;quot;, 16030: &amp;quot;1145*14&amp;quot;, 14515: &amp;quot;1+14514&amp;quot;, 14514: &amp;quot;1*14514&amp;quot;, 14513: &amp;quot;-1+14514&amp;quot;, 11455: &amp;quot;11451+4&amp;quot;, 11447: &amp;quot;11451-4&amp;quot;, 9028: &amp;quot;(1+1)*4514&amp;quot;, 8976: &amp;quot;11*4*51*4&amp;quot;, 7980: &amp;quot;114*5*14&amp;quot;, 7710: &amp;quot;(1+14)*514&amp;quot;, 7197: &amp;quot;1+14*514&amp;quot;, 7196: &amp;quot;1*14*514&amp;quot;, 7195: &amp;quot;-1+14*514&amp;quot;, 6930: &amp;quot;11*45*14&amp;quot;, 6682: &amp;quot;(1-14)*-514&amp;quot;, 6270: &amp;quot;114*(51+4)&amp;quot;, 5818: &amp;quot;114*51+4&amp;quot;, 5810: &amp;quot;114*51-4&amp;quot;, 5808: &amp;quot;(1+1451)*4&amp;quot;, 5805: &amp;quot;1+1451*4&amp;quot;, 5804: &amp;quot;1*1451*4&amp;quot;, 5803: &amp;quot;-1+1451*4&amp;quot;, 5800: &amp;quot;(1-1451)*-4&amp;quot;, 5725: &amp;quot;1145*(1+4)&amp;quot;, 5698: &amp;quot;11*(4+514)&amp;quot;, 5610: &amp;quot;-11*(4-514)&amp;quot;, 5358: &amp;quot;114*(51-4)&amp;quot;, 5005: &amp;quot;11*(451+4)&amp;quot;, 4965: &amp;quot;11*451+4&amp;quot;, 4957: &amp;quot;11*451-4&amp;quot;, 4917: &amp;quot;11*(451-4)&amp;quot;, 4584: &amp;quot;(1145+1)*4&amp;quot;, 4580: &amp;quot;1145*1*4&amp;quot;, 4576: &amp;quot;(1145-1)*4&amp;quot;, 4525: &amp;quot;11+4514&amp;quot;, 4516: &amp;quot;1+1+4514&amp;quot;, 4515: &amp;quot;1+1*4514&amp;quot;, 4514: &amp;quot;1-1+4514&amp;quot;, 4513: &amp;quot;-1*1+4514&amp;quot;, 4512: &amp;quot;-1-1+4514&amp;quot;, 4503: &amp;quot;-11+4514&amp;quot;, 4112: &amp;quot;(1+1)*4*514&amp;quot;, 3608: &amp;quot;(1+1)*451*4&amp;quot;, 3598: &amp;quot;(11-4)*514&amp;quot;, 3435: &amp;quot;-1145*(1-4)&amp;quot;, 3080: &amp;quot;11*4*5*14&amp;quot;, 3060: &amp;quot;(11+4)*51*4&amp;quot;, 2857: &amp;quot;1+14*51*4&amp;quot;, 2856: &amp;quot;1*14*51*4&amp;quot;, 2855: &amp;quot;-1+14*51*4&amp;quot;, 2850: &amp;quot;114*5*(1+4)&amp;quot;, 2736: &amp;quot;114*(5+1)*4&amp;quot;, 2652: &amp;quot;(1-14)*51*-4&amp;quot;, 2570: &amp;quot;1*(1+4)*514&amp;quot;, 2475: &amp;quot;11*45*(1+4)&amp;quot;, 2420: &amp;quot;11*4*(51+4)&amp;quot;, 2280: &amp;quot;114*5*1*4&amp;quot;, 2248: &amp;quot;11*4*51+4&amp;quot;, 2240: &amp;quot;11*4*51-4&amp;quot;, 2166: &amp;quot;114*(5+14)&amp;quot;, 2068: &amp;quot;11*4*(51-4)&amp;quot;, 2067: &amp;quot;11+4*514&amp;quot;, 2058: &amp;quot;1+1+4*514&amp;quot;, 2057: &amp;quot;1/1+4*514&amp;quot;, 2056: &amp;quot;1/1*4*514&amp;quot;, 2055: &amp;quot;-1/1+4*514&amp;quot;, 2054: &amp;quot;-1-1+4*514&amp;quot;, 2045: &amp;quot;-11+4*514&amp;quot;, 2044: &amp;quot;(1+145)*14&amp;quot;, 2031: &amp;quot;1+145*14&amp;quot;, 2030: &amp;quot;1*145*14&amp;quot;, 2029: &amp;quot;-1+145*14&amp;quot;, 2024: &amp;quot;11*(45+1)*4&amp;quot;, 2016: &amp;quot;-(1-145)*14&amp;quot;, 1980: &amp;quot;11*45*1*4&amp;quot;, 1936: &amp;quot;11*(45-1)*4&amp;quot;, 1848: &amp;quot;(11+451)*4&amp;quot;, 1824: &amp;quot;114*(5-1)*4&amp;quot;, 1815: &amp;quot;11+451*4&amp;quot;, 1808: &amp;quot;1*(1+451)*4&amp;quot;, 1806: &amp;quot;1+1+451*4&amp;quot;, 1805: &amp;quot;1+1*451*4&amp;quot;, 1804: &amp;quot;1-1+451*4&amp;quot;, 1803: &amp;quot;1*-1+451*4&amp;quot;, 1802: &amp;quot;-1-1+451*4&amp;quot;, 1800: &amp;quot;1*-(1-451)*4&amp;quot;, 1793: &amp;quot;-11+451*4&amp;quot;, 1760: &amp;quot;-(11-451)*4&amp;quot;, 1710: &amp;quot;114*-5*(1-4)&amp;quot;, 1666: &amp;quot;(114+5)*14&amp;quot;, 1632: &amp;quot;(1+1)*4*51*4&amp;quot;, 1542: &amp;quot;1*-(1-4)*514&amp;quot;, 1526: &amp;quot;(114-5)*14&amp;quot;, 1485: &amp;quot;11*-45*(1-4)&amp;quot;, 1456: &amp;quot;1+1451+4&amp;quot;, 1455: &amp;quot;1*1451+4&amp;quot;, 1454: &amp;quot;-1+1451+4&amp;quot;, 1448: &amp;quot;1+1451-4&amp;quot;, 1447: &amp;quot;1*1451-4&amp;quot;, 1446: &amp;quot;-1+1451-4&amp;quot;, 1428: &amp;quot;(11-4)*51*4&amp;quot;, 1386: &amp;quot;11*(4+5)*14&amp;quot;, 1260: &amp;quot;(1+1)*45*14&amp;quot;, 1159: &amp;quot;1145+14&amp;quot;, 1150: &amp;quot;1145+1+4&amp;quot;, 1149: &amp;quot;1145+1*4&amp;quot;, 1148: &amp;quot;1145-1+4&amp;quot;, 1142: &amp;quot;1145+1-4&amp;quot;, 1141: &amp;quot;1145-1*4&amp;quot;, 1140: &amp;quot;(1145-1)-4&amp;quot;, 1131: &amp;quot;1145-14&amp;quot;, 1100: &amp;quot;11*4*5*(1+4)&amp;quot;, 1056: &amp;quot;11*4*(5+1)*4&amp;quot;, 1050: &amp;quot;(11+4)*5*14&amp;quot;, 1036: &amp;quot;(1+1)*(4+514)&amp;quot;, 1026: &amp;quot;114*-(5-14)&amp;quot;, 1020: &amp;quot;1*(1+4)*51*4&amp;quot;, 981: &amp;quot;1+14*5*14&amp;quot;, 980: &amp;quot;1*14*5*14&amp;quot;, 979: &amp;quot;-1+14*5*14&amp;quot;, 910: &amp;quot;-(1-14)*5*14&amp;quot;, 906: &amp;quot;(1+1)*451+4&amp;quot;, 898: &amp;quot;(1+1)*451-4&amp;quot;, 894: &amp;quot;(1+1)*(451-4)&amp;quot;, 880: &amp;quot;11*4*5*1*4&amp;quot;, 836: &amp;quot;11*4*(5+14)&amp;quot;, 827: &amp;quot;11+4*51*4&amp;quot;, 825: &amp;quot;(11+4)*(51+4)&amp;quot;, 818: &amp;quot;1+1+4*51*4&amp;quot;, 817: &amp;quot;1*1+4*51*4&amp;quot;, 816: &amp;quot;1*1*4*51*4&amp;quot;, 815: &amp;quot;-1+1*4*51*4&amp;quot;, 814: &amp;quot;-1-1+4*51*4&amp;quot;, 805: &amp;quot;-11+4*51*4&amp;quot;, 784: &amp;quot;(11+45)*14&amp;quot;, 771: &amp;quot;1+14*(51+4)&amp;quot;, 770: &amp;quot;1*14*(51+4)&amp;quot;, 769: &amp;quot;(11+4)*51+4&amp;quot;, 761: &amp;quot;(1+14)*51-4&amp;quot;, 730: &amp;quot;(1+145)*(1+4)&amp;quot;, 726: &amp;quot;1+145*(1+4)&amp;quot;, 725: &amp;quot;1*145*(1+4)&amp;quot;, 724: &amp;quot;-1-145*-(1+4)&amp;quot;, 720: &amp;quot;(1-145)*-(1+4)&amp;quot;, 719: &amp;quot;1+14*51+4&amp;quot;, 718: &amp;quot;1*14*51+4&amp;quot;, 717: &amp;quot;-1-14*-51+4&amp;quot;, 715: &amp;quot;(1-14)*-(51+4)&amp;quot;, 711: &amp;quot;1+14*51-4&amp;quot;, 710: &amp;quot;1*14*51-4&amp;quot;, 709: &amp;quot;-1+14*51-4&amp;quot;, 705: &amp;quot;(1+14)*(51-4)&amp;quot;, 704: &amp;quot;11*4*(5-1)*4&amp;quot;, 688: &amp;quot;114*(5+1)+4&amp;quot;, 680: &amp;quot;114*(5+1)-4&amp;quot;, 667: &amp;quot;-(1-14)*51+4&amp;quot;, 660: &amp;quot;(114+51)*4&amp;quot;, 659: &amp;quot;1+14*(51-4)&amp;quot;, 658: &amp;quot;1*14*(51-4)&amp;quot;, 657: &amp;quot;-1+14*(51-4)&amp;quot;, 649: &amp;quot;11*(45+14)&amp;quot;, 644: &amp;quot;1*(1+45)*14&amp;quot;, 641: &amp;quot;11+45*14&amp;quot;, 632: &amp;quot;1+1+45*14&amp;quot;, 631: &amp;quot;1*1+45*14&amp;quot;, 630: &amp;quot;1*1*45*14&amp;quot;, 629: &amp;quot;1*-1+45*14&amp;quot;, 628: &amp;quot;114+514&amp;quot;, 619: &amp;quot;-11+45*14&amp;quot;, 616: &amp;quot;1*-(1-45)*14&amp;quot;, 612: &amp;quot;-1*(1-4)*51*4&amp;quot;, 611: &amp;quot;(1-14)*-(51-4)&amp;quot;, 609: &amp;quot;11*(4+51)+4&amp;quot;, 601: &amp;quot;11*(4+51)-4&amp;quot;, 595: &amp;quot;(114+5)*(1+4)&amp;quot;, 584: &amp;quot;114*5+14&amp;quot;, 581: &amp;quot;1+145*1*4&amp;quot;, 580: &amp;quot;1*145/1*4&amp;quot;, 579: &amp;quot;-1+145*1*4&amp;quot;, 576: &amp;quot;1*(145-1)*4&amp;quot;, 575: &amp;quot;114*5+1+4&amp;quot;, 574: &amp;quot;114*5/1+4&amp;quot;, 573: &amp;quot;114*5-1+4&amp;quot;, 567: &amp;quot;114*5+1-4&amp;quot;, 566: &amp;quot;114*5*1-4&amp;quot;, 565: &amp;quot;114*5-1-4&amp;quot;, 561: &amp;quot;11/4*51*4&amp;quot;, 560: &amp;quot;(1+1)*4*5*14&amp;quot;, 558: &amp;quot;11*4+514&amp;quot;, 556: &amp;quot;114*5-14&amp;quot;, 545: &amp;quot;(114-5)*(1+4)&amp;quot;, 529: &amp;quot;1+14+514&amp;quot;, 528: &amp;quot;1*14+514&amp;quot;, 527: &amp;quot;-1+14+514&amp;quot;, 522: &amp;quot;(1+1)*4+514&amp;quot;, 521: &amp;quot;11-4+514&amp;quot;, 520: &amp;quot;1+1+4+514&amp;quot;, 519: &amp;quot;1+1*4+514&amp;quot;, 518: &amp;quot;1-1+4+514&amp;quot;, 517: &amp;quot;-1+1*4+514&amp;quot;, 516: &amp;quot;-1-1+4+514&amp;quot;, 514: &amp;quot;(1-1)/4+514&amp;quot;, 513: &amp;quot;-11*(4-51)-4&amp;quot;, 512: &amp;quot;1+1-4+514&amp;quot;, 511: &amp;quot;1*1-4+514&amp;quot;, 510: &amp;quot;1-1-4+514&amp;quot;, 509: &amp;quot;11*45+14&amp;quot;, 508: &amp;quot;-1-1-4+514&amp;quot;, 507: &amp;quot;-11+4+514&amp;quot;, 506: &amp;quot;-(1+1)*4+514&amp;quot;, 502: &amp;quot;11*(45+1)-4&amp;quot;, 501: &amp;quot;1-14+514&amp;quot;, 500: &amp;quot;11*45+1+4&amp;quot;, 499: &amp;quot;11*45*1+4&amp;quot;, 498: &amp;quot;11*45-1+4&amp;quot;, 495: &amp;quot;11*(4+5)*(1+4)&amp;quot;, 492: &amp;quot;11*45+1-4&amp;quot;, 491: &amp;quot;11*45-1*4&amp;quot;, 490: &amp;quot;11*45-1-4&amp;quot;, 488: &amp;quot;11*(45-1)+4&amp;quot;, 481: &amp;quot;11*45-14&amp;quot;, 480: &amp;quot;11*(45-1)-4&amp;quot;, 476: &amp;quot;(114+5)/1*4&amp;quot;, 470: &amp;quot;-11*4+514&amp;quot;, 466: &amp;quot;11+451+4&amp;quot;, 460: &amp;quot;114*(5-1)+4&amp;quot;, 458: &amp;quot;11+451-4&amp;quot;, 457: &amp;quot;1+1+451+4&amp;quot;, 456: &amp;quot;1*1+451+4&amp;quot;, 455: &amp;quot;1-1+451+4&amp;quot;, 454: &amp;quot;-1+1*451+4&amp;quot;, 453: &amp;quot;-1-1+451+4&amp;quot;, 452: &amp;quot;114*(5-1)-4&amp;quot;, 450: &amp;quot;(1+1)*45*(1+4)&amp;quot;, 449: &amp;quot;1+1+451-4&amp;quot;, 448: &amp;quot;1+1*451-4&amp;quot;, 447: &amp;quot;1/1*451-4&amp;quot;, 446: &amp;quot;1*-1+451-4&amp;quot;, 445: &amp;quot;-1-1+451-4&amp;quot;, 444: &amp;quot;-11+451+4&amp;quot;, 440: &amp;quot;(1+1)*4*(51+4)&amp;quot;, 438: &amp;quot;(1+145)*-(1-4)&amp;quot;, 436: &amp;quot;-11+451-4&amp;quot;, 435: &amp;quot;-1*145*(1-4)&amp;quot;, 434: &amp;quot;-1-145*(1-4)&amp;quot;, 432: &amp;quot;(1-145)*(1-4)&amp;quot;, 412: &amp;quot;(1+1)*4*51+4&amp;quot;, 404: &amp;quot;(1+1)*4*51-4&amp;quot;, 400: &amp;quot;-114+514&amp;quot;, 396: &amp;quot;11*4*-(5-14)&amp;quot;, 385: &amp;quot;(11-4)*(51+4)&amp;quot;, 376: &amp;quot;(1+1)*4*(51-4)&amp;quot;, 375: &amp;quot;(1+14)*5*(1+4)&amp;quot;, 368: &amp;quot;(1+1)*(45+1)*4&amp;quot;, 363: &amp;quot;(1+1451)/4&amp;quot;, 361: &amp;quot;(11-4)*51+4&amp;quot;, 360: &amp;quot;(1+1)*45*1*4&amp;quot;, 357: &amp;quot;(114+5)*-(1-4)&amp;quot;, 353: &amp;quot;(11-4)*51-4&amp;quot;, 352: &amp;quot;(1+1)*(45-1)*4&amp;quot;, 351: &amp;quot;1+14*-5*-(1+4)&amp;quot;, 350: &amp;quot;1*(1+4)*5*14&amp;quot;, 349: &amp;quot;-1+14*5*(1+4)&amp;quot;, 341: &amp;quot;11*(45-14)&amp;quot;, 337: &amp;quot;1-14*-(5+1)*4&amp;quot;, 336: &amp;quot;1*14*(5+1)*4&amp;quot;, 335: &amp;quot;-1+14*(5+1)*4&amp;quot;, 329: &amp;quot;(11-4)*(51-4)&amp;quot;, 327: &amp;quot;-(114-5)*(1-4)&amp;quot;, 325: &amp;quot;-(1-14)*5*(1+4)&amp;quot;, 318: &amp;quot;114+51*4&amp;quot;, 312: &amp;quot;(1-14)*-(5+1)*4&amp;quot;, 300: &amp;quot;(11+4)*5/1*4&amp;quot;, 297: &amp;quot;-11*(4+5)*(1-4)&amp;quot;, 291: &amp;quot;11+4*5*14&amp;quot;, 286: &amp;quot;(1145-1)/4&amp;quot;, 285: &amp;quot;(11+4)*(5+14)&amp;quot;, 282: &amp;quot;1+1+4*5*14&amp;quot;, 281: &amp;quot;1+14*5/1*4&amp;quot;, 280: &amp;quot;1-1+4*5*14&amp;quot;, 279: &amp;quot;1*-1+4*5*14&amp;quot;, 278: &amp;quot;-1-1+4*5*14&amp;quot;, 275: &amp;quot;1*(1+4)*(51+4)&amp;quot;, 270: &amp;quot;(1+1)*45*-(1-4)&amp;quot;, 269: &amp;quot;-11+4*5*14&amp;quot;, 268: &amp;quot;11*4*(5+1)+4&amp;quot;, 267: &amp;quot;1+14*(5+14)&amp;quot;, 266: &amp;quot;1*14*(5+14)&amp;quot;, 265: &amp;quot;-1+14*(5+14)&amp;quot;, 260: &amp;quot;1*(14+51)*4&amp;quot;, 259: &amp;quot;1*(1+4)*51+4&amp;quot;, 257: &amp;quot;(1+1)/4*514&amp;quot;, 252: &amp;quot;(114-51)*4&amp;quot;, 251: &amp;quot;1*-(1+4)*-51-4&amp;quot;, 248: &amp;quot;11*4+51*4&amp;quot;, 247: &amp;quot;-(1-14)*(5+14)&amp;quot;, 240: &amp;quot;(11+4)*(5-1)*4&amp;quot;, 236: &amp;quot;11+45*(1+4)&amp;quot;, 235: &amp;quot;1*(1+4)*(51-4)&amp;quot;, 234: &amp;quot;11*4*5+14&amp;quot;, 231: &amp;quot;11+4*(51+4)&amp;quot;, 230: &amp;quot;1*(1+45)*(1+4)&amp;quot;, 229: &amp;quot;1145/(1+4)&amp;quot;, 227: &amp;quot;1+1+45*(1+4)&amp;quot;, 226: &amp;quot;1*1+45*(1+4)&amp;quot;, 225: &amp;quot;11*4*5+1+4&amp;quot;, 224: &amp;quot;11*4*5/1+4&amp;quot;, 223: &amp;quot;11*4*5-1+4&amp;quot;, 222: &amp;quot;1+1+4*(51+4)&amp;quot;, 221: &amp;quot;1/1+4*(51+4)&amp;quot;, 220: &amp;quot;1*1*(4+51)*4&amp;quot;, 219: &amp;quot;1+14+51*4&amp;quot;, 218: &amp;quot;1*14+51*4&amp;quot;, 217: &amp;quot;11*4*5+1-4&amp;quot;, 216: &amp;quot;11*4*5-1*4&amp;quot;, 215: &amp;quot;11*4*5-1-4&amp;quot;, 214: &amp;quot;-11+45*(1+4)&amp;quot;, 212: &amp;quot;(1+1)*4+51*4&amp;quot;, 211: &amp;quot;11-4+51*4&amp;quot;, 210: &amp;quot;1+1+4+51*4&amp;quot;, 209: &amp;quot;1+1*4*51+4&amp;quot;, 208: &amp;quot;1*1*4+51*4&amp;quot;, 207: &amp;quot;-1+1*4*51+4&amp;quot;, 206: &amp;quot;11*4*5-14&amp;quot;, 204: &amp;quot;(1-1)/4+51*4&amp;quot;, 202: &amp;quot;1+1-4+51*4&amp;quot;, 201: &amp;quot;1/1-4+51*4&amp;quot;, 200: &amp;quot;1/1*4*51-4&amp;quot;, 199: &amp;quot;1*-1+4*51-4&amp;quot;, 198: &amp;quot;-1-1+4*51-4&amp;quot;, 197: &amp;quot;-11+4+51*4&amp;quot;, 196: &amp;quot;-(1+1)*4+51*4&amp;quot;, 195: &amp;quot;(1-14)*5*(1-4)&amp;quot;, 192: &amp;quot;(1+1)*4*(5+1)*4&amp;quot;, 191: &amp;quot;1-14+51*4&amp;quot;, 190: &amp;quot;1*-14+51*4&amp;quot;, 189: &amp;quot;-11-4+51*4&amp;quot;, 188: &amp;quot;1-1-(4-51)*4&amp;quot;, 187: &amp;quot;1/-1+4*(51-4)&amp;quot;, 186: &amp;quot;1+1+(45+1)*4&amp;quot;, 185: &amp;quot;1-1*-(45+1)*4&amp;quot;, 184: &amp;quot;114+5*14&amp;quot;, 183: &amp;quot;-1+1*(45+1)*4&amp;quot;, 182: &amp;quot;1+1+45/1*4&amp;quot;, 181: &amp;quot;1+1*45*1*4&amp;quot;, 180: &amp;quot;1*1*45*1*4&amp;quot;, 179: &amp;quot;-1/1+45*1*4&amp;quot;, 178: &amp;quot;-1-1+45*1*4&amp;quot;, 177: &amp;quot;1+1*(45-1)*4&amp;quot;, 176: &amp;quot;1*1*(45-1)*4&amp;quot;, 175: &amp;quot;-1+1*(45-1)*4&amp;quot;, 174: &amp;quot;-1-1+(45-1)*4&amp;quot;, 172: &amp;quot;11*4*(5-1)-4&amp;quot;, 171: &amp;quot;114*(5+1)/4&amp;quot;, 170: &amp;quot;(11-45)*-(1+4)&amp;quot;, 169: &amp;quot;114+51+4&amp;quot;, 168: &amp;quot;(11+45)*-(1-4)&amp;quot;, 165: &amp;quot;11*-45/(1-4)&amp;quot;, 161: &amp;quot;114+51-4&amp;quot;, 160: &amp;quot;1+145+14&amp;quot;, 159: &amp;quot;1*145+14&amp;quot;, 158: &amp;quot;-1+145+14&amp;quot;, 157: &amp;quot;1*(1-4)*-51+4&amp;quot;, 154: &amp;quot;11*(4-5)*-14&amp;quot;, 152: &amp;quot;(1+1)*4*(5+14)&amp;quot;, 151: &amp;quot;1+145+1+4&amp;quot;, 150: &amp;quot;1+145*1+4&amp;quot;, 149: &amp;quot;1*145*1+4&amp;quot;, 148: &amp;quot;1*145-1+4&amp;quot;, 147: &amp;quot;-1+145-1+4&amp;quot;, 146: &amp;quot;11+45*-(1-4)&amp;quot;, 143: &amp;quot;1+145+1-4&amp;quot;, 142: &amp;quot;1+145*1-4&amp;quot;, 141: &amp;quot;1+145-1-4&amp;quot;, 140: &amp;quot;1*145-1-4&amp;quot;, 139: &amp;quot;-1+145-1-4&amp;quot;, 138: &amp;quot;-1*(1+45)*(1-4)&amp;quot;, 137: &amp;quot;1+1-45*(1-4)&amp;quot;, 136: &amp;quot;1*1-45*(1-4)&amp;quot;, 135: &amp;quot;-1/1*45*(1-4)&amp;quot;, 134: &amp;quot;114+5/1*4&amp;quot;, 133: &amp;quot;114+5+14&amp;quot;, 132: &amp;quot;1+145-14&amp;quot;, 131: &amp;quot;1*145-14&amp;quot;, 130: &amp;quot;-1+145-14&amp;quot;, 129: &amp;quot;114+5*-(1-4)&amp;quot;, 128: &amp;quot;1+1+(4+5)*14&amp;quot;, 127: &amp;quot;1-14*(5-14)&amp;quot;, 126: &amp;quot;1*(14-5)*14&amp;quot;, 125: &amp;quot;-1-14*(5-14)&amp;quot;, 124: &amp;quot;114+5+1+4&amp;quot;, 123: &amp;quot;114-5+14&amp;quot;, 122: &amp;quot;114+5-1+4&amp;quot;, 121: &amp;quot;11*(45-1)/4&amp;quot;, 120: &amp;quot;-(1+1)*4*5*(1-4)&amp;quot;, 118: &amp;quot;(1+1)*(45+14)&amp;quot;, 117: &amp;quot;(1-14)*(5-14)&amp;quot;, 116: &amp;quot;114+5+1-4&amp;quot;, 115: &amp;quot;114+5*1-4&amp;quot;, 114: &amp;quot;11*4+5*14&amp;quot;, 113: &amp;quot;114-5/1+4&amp;quot;, 112: &amp;quot;114-5-1+4&amp;quot;, 111: &amp;quot;11+4*5*(1+4)&amp;quot;, 110: &amp;quot;-(11-451)/4&amp;quot;, 107: &amp;quot;11-4*-(5+1)*4&amp;quot;, 106: &amp;quot;114-5+1-4&amp;quot;, 105: &amp;quot;114+5-14&amp;quot;, 104: &amp;quot;114-5-1-4&amp;quot;, 103: &amp;quot;11*(4+5)+1*4&amp;quot;, 102: &amp;quot;11*(4+5)-1+4&amp;quot;, 101: &amp;quot;1+1*4*5*(1+4)&amp;quot;, 100: &amp;quot;1*(1+4)*5*1*4&amp;quot;, 99: &amp;quot;11*4+51+4&amp;quot;, 98: &amp;quot;1+1+4*(5+1)*4&amp;quot;, 97: &amp;quot;1+1*4*(5+1)*4&amp;quot;, 96: &amp;quot;11*(4+5)+1-4&amp;quot;, 95: &amp;quot;114-5-14&amp;quot;, 94: &amp;quot;114-5/1*4&amp;quot;, 93: &amp;quot;(1+1)*45-1+4&amp;quot;, 92: &amp;quot;(1+1)*(45-1)+4&amp;quot;, 91: &amp;quot;11*4+51-4&amp;quot;, 90: &amp;quot;-114+51*4&amp;quot;, 89: &amp;quot;(1+14)*5+14&amp;quot;, 88: &amp;quot;1*14*(5+1)+4&amp;quot;, 87: &amp;quot;11+4*(5+14)&amp;quot;, 86: &amp;quot;(1+1)*45*1-4&amp;quot;, 85: &amp;quot;1+14+5*14&amp;quot;, 84: &amp;quot;1*14+5*14&amp;quot;, 83: &amp;quot;-1+14+5*14&amp;quot;, 82: &amp;quot;1+1+4*5/1*4&amp;quot;, 81: &amp;quot;1/1+4*5*1*4&amp;quot;, 80: &amp;quot;1-1+4*5*1*4&amp;quot;, 79: &amp;quot;1*-1+4*5/1*4&amp;quot;, 78: &amp;quot;(1+1)*4+5*14&amp;quot;, 77: &amp;quot;11-4+5*14&amp;quot;, 76: &amp;quot;1+1+4+5*14&amp;quot;, 75: &amp;quot;1+14*5*1+4&amp;quot;, 74: &amp;quot;1/1*4+5*14&amp;quot;, 73: &amp;quot;1*14*5-1+4&amp;quot;, 72: &amp;quot;-1-1+4+5*14&amp;quot;, 71: &amp;quot;(1+14)*5-1*4&amp;quot;, 70: &amp;quot;11+45+14&amp;quot;, 69: &amp;quot;1*14+51+4&amp;quot;, 68: &amp;quot;1+1-4+5*14&amp;quot;, 67: &amp;quot;1-1*4+5*14&amp;quot;, 66: &amp;quot;1*14*5-1*4&amp;quot;, 65: &amp;quot;1*14*5-1-4&amp;quot;, 64: &amp;quot;11*4+5*1*4&amp;quot;, 63: &amp;quot;11*4+5+14&amp;quot;, 62: &amp;quot;1+14+51-4&amp;quot;, 61: &amp;quot;1+1+45+14&amp;quot;, 60: &amp;quot;11+45*1+4&amp;quot;, 59: &amp;quot;114-51-4&amp;quot;, 58: &amp;quot;-1+1*45+14&amp;quot;, 57: &amp;quot;1+14*5-14&amp;quot;, 56: &amp;quot;1*14*5-14&amp;quot;, 55: &amp;quot;-1+14*5-14&amp;quot;, 54: &amp;quot;11-4+51-4&amp;quot;, 53: &amp;quot;11+45+1-4&amp;quot;, 52: &amp;quot;11+45/1-4&amp;quot;, 51: &amp;quot;11+45-1-4&amp;quot;, 50: &amp;quot;1+1*45/1+4&amp;quot;, 49: &amp;quot;1*1*45/1+4&amp;quot;, 48: &amp;quot;-11+45+14&amp;quot;, 47: &amp;quot;1/-1+45-1+4&amp;quot;, 46: &amp;quot;11*4+5+1-4&amp;quot;, 45: &amp;quot;11+4*5+14&amp;quot;, 44: &amp;quot;114-5*14&amp;quot;, 43: &amp;quot;1+1*45+1-4&amp;quot;, 42: &amp;quot;11+45-14&amp;quot;, 41: &amp;quot;1/1*45*1-4&amp;quot;, 40: &amp;quot;-11+4*51/4&amp;quot;, 39: &amp;quot;-11+45+1+4&amp;quot;, 38: &amp;quot;-11+45*1+4&amp;quot;, 37: &amp;quot;-11+45-1+4&amp;quot;, 36: &amp;quot;11+4*5+1+4&amp;quot;, 35: &amp;quot;11*4+5-14&amp;quot;, 34: &amp;quot;1-14+51-4&amp;quot;, 33: &amp;quot;1+1+45-14&amp;quot;, 32: &amp;quot;1*1+45-14&amp;quot;, 31: &amp;quot;1/1*45-14&amp;quot;, 30: &amp;quot;1*-1+45-14&amp;quot;, 29: &amp;quot;-11+45-1-4&amp;quot;, 28: &amp;quot;11+4*5+1-4&amp;quot;, 27: &amp;quot;11+4*5/1-4&amp;quot;, 26: &amp;quot;11-4+5+14&amp;quot;, 25: &amp;quot;11*4-5-14&amp;quot;, 24: &amp;quot;1+14-5+14&amp;quot;, 23: &amp;quot;1*14-5+14&amp;quot;, 22: &amp;quot;1*14+5-1+4&amp;quot;, 21: &amp;quot;-1-1+4+5+14&amp;quot;, 20: &amp;quot;-11+45-14&amp;quot;, 19: &amp;quot;1+1+4*5+1-4&amp;quot;, 18: &amp;quot;1+1+4*5*1-4&amp;quot;, 17: &amp;quot;11+4*5-14&amp;quot;, 16: &amp;quot;11-4-5+14&amp;quot;, 15: &amp;quot;1+14-5+1+4&amp;quot;, 14: &amp;quot;11+4-5/1+4&amp;quot;, 13: &amp;quot;1*14-5/1+4&amp;quot;, 12: &amp;quot;-11+4+5+14&amp;quot;, 11: &amp;quot;11*-4+51+4&amp;quot;, 10: &amp;quot;-11/4+51/4&amp;quot;, 9: &amp;quot;11-4+5+1-4&amp;quot;, 8: &amp;quot;11-4+5/1-4&amp;quot;, 7: &amp;quot;11-4+5-1-4&amp;quot;, 6: &amp;quot;1-14+5+14&amp;quot;, 5: &amp;quot;11-4*5+14&amp;quot;, 4: &amp;quot;-11-4+5+14&amp;quot;, 3: &amp;quot;11*-4+51-4&amp;quot;, 2: &amp;quot;-11+4-5+14&amp;quot;, 1: &amp;quot;11/(45-1)*4&amp;quot;, 0: &amp;quot;(1-1)*4514&amp;quot;, </description>
-    </item>
-    
+    <lastBuildDate>Tue, 04 Aug 2020 20:23:52 +0000</lastBuildDate><atom:link href="http://criwits.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://criwits.me/about/</link>
@@ -23,6 +13,119 @@
       
       <guid>http://criwits.me/about/</guid>
       <description>我能吞下玻璃而不伤身体。</description>
+    </item>
+    
+    <item>
+      <title>一台新 Windows 电脑的折腾日记</title>
+      <link>http://criwits.me/post/playing-with-windows/</link>
+      <pubDate>Tue, 04 Aug 2020 20:23:52 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/playing-with-windows/</guid>
+      <description>&lt;p&gt;近日，Hans 的一朋友 &lt;strong&gt;Green Dragonfly&lt;/strong&gt; 购买了一台新机，型号是联想的 Y7000P（i7-10875H，32GB 内存，1TB 固态硬盘，预装 Windows 10）。入手第二天，他便携机来访寒舍，想一起给电脑安些常用软件，做些优化。为使得我们的折腾过程有个记录，特开此文，一一记之。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux折腾笔记</title>
+      <link>http://criwits.me/post/playing-with-linux/</link>
+      <pubDate>Thu, 12 Mar 2020 23:23:39 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/playing-with-linux/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;这是我在日常使用Linux的过程中积累的一些笔记，供自己日后参考。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>苏维埃社会主义共和国联盟致中国人民的公开信</title>
+      <link>http://criwits.me/post/soviet-union-cheers-wuhan-up/</link>
+      <pubDate>Mon, 24 Feb 2020 08:25:27 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/soviet-union-cheers-wuhan-up/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;(纯属虚构)&lt;/strong&gt;
+武汉、湖北和全中国的达瓦里氏：
+Товарищи в Ухане, Хубэй и Китае,
+　　首先，请让我们全党、苏维埃和全体苏联人民恭祝你们庚子年新春快乐！
+　　Прежде всего, давайте, вся партия, Советы и все советские люди желают вам счастливого китайского Нового года!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第六周&amp;第七周</title>
+      <link>http://criwits.me/post/week-6and7/</link>
+      <pubDate>Sun, 16 Feb 2020 23:33:21 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/week-6and7/</guid>
+      <description>&lt;p&gt;　　人总是懒惰的。本该在上周写成的“第六周”周评压根没有写，干脆和这周的一起写了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第五周</title>
+      <link>http://criwits.me/post/week-5/</link>
+      <pubDate>Mon, 03 Feb 2020 23:58:36 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/week-5/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;“Can we restart 2020?”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;　　这篇文章本应该在1月31日写完并发布，但由于自己的拖延症，直到今天才开始写稿。
+　　在过去的一个多星期内，我们目睹了新型冠状病毒引起的肺炎（武汉肺炎、新冠肺炎）的大爆发。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我的庚子（鼠）年新春贺词</title>
+      <link>http://criwits.me/post/happy-chinese-new-year/</link>
+      <pubDate>Fri, 24 Jan 2020 18:36:33 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/happy-chinese-new-year/</guid>
+      <description>&lt;p&gt;　　庚子（鼠）年就要到了，我在自家卧室为自己送上美好的新年祝福。
+　　时光的大河缓缓向前流淌，偶尔巨浪滔天，有时停滞不前。小老鼠接着小猪的尾巴，跑上了时光的前线。十二生肖走完了一个轮回，又将开启下一个十二年。回望自己的过去这年，该遇见的、不该遇见的，也许都遇见了；该发生的、不该发生的，最终也过去了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>有感于2019—2020武汉肺炎事件</title>
+      <link>http://criwits.me/post/new-illness/</link>
+      <pubDate>Tue, 21 Jan 2020 23:17:01 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/new-illness/</guid>
+      <description>&lt;p&gt;　　21世纪的第三个十年大概不会是平和的十年。当人们还沉浸在对过去成就的喜悦中时，新的麻烦悄然而至。
+　　近日，从武汉爆发的“2019新型冠状病毒”所引发的肺炎流行事件受到了广泛关注。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第三周</title>
+      <link>http://criwits.me/post/week-3/</link>
+      <pubDate>Fri, 17 Jan 2020 22:52:08 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/week-3/</guid>
+      <description>&lt;p&gt;　　2020年的第三个星期马上走到了头。伊朗与美国之间“一触即发”的紧迫感尚未消散，而突如其来的“伊朗击落乌克兰客机”事件，则让事态进一步升级。一方面，两国之间互放狠话；另一方面，美国、伊朗国内都出现了民众游行活动，只是美国方面的游行是反对对伊朗展开制裁，伊朗方面则是表达对击落客机的不满。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>灯塔</title>
+      <link>http://criwits.me/post/tower/</link>
+      <pubDate>Mon, 13 Jan 2020 22:50:49 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/tower/</guid>
+      <description>&lt;p&gt;　　很久很久以前，人们在海岸边的悬崖上立了一座灯塔。
+　　灯塔并不是什么复杂的东西。她只是一座用青砖垒成的高塔——要说高也未必，大概十多米的样子——上面镶着一个玻璃笼子。据说那玻璃不一般，是一种特殊的透镜，能把光折射到很远很远的地方。而那玻璃笼子里面，一盏油灯、一团火焰，构成了这座灯塔内的全部。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第二周</title>
+      <link>http://criwits.me/post/week-2/</link>
+      <pubDate>Fri, 10 Jan 2020 22:47:45 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/week-2/</guid>
+      <description>&lt;p&gt;　　2020年的第二周，也是这个新十年“完整的”第一周就这么过去了。似乎这是颇不宁静的一周：美国和伊朗的纠纷加剧，好像起先是美国击杀了伊朗的一位高级将领，然后伊朗扬言报复美国，对美国宣战，川普就在推特上说什么“要用漂亮的武器回击他们”，伊朗遂又把美国五角大楼定性为“恐怖组织”之类的，总之是乱得不行。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>序</title>
+      <link>http://criwits.me/post/prelogue/</link>
+      <pubDate>Fri, 10 Jan 2020 18:02:40 +0000</pubDate>
+      
+      <guid>http://criwits.me/post/prelogue/</guid>
+      <description>&lt;p&gt;　　总想写点什么。
+　　我曾经尝试写日记。头几天很容易坚持，那会每天晚上都能拿出日记本写上几面纸。然而渐渐地，写的东西从原先的一天一篇变成了一天一段，再变成一天一句，最后本子被尘封在抽屉里暗无天日地度过了几个月。&lt;/p&gt;</description>
     </item>
     
   </channel>

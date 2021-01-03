@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang='zh' dir='auto'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='
+这是我在日常使用Linux的过程中积累的一些笔记，供自己日后参考。
+'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='Linux折腾笔记 • CRIWITS — Hans Wan 的博客'>
+<meta property='og:description' content='
+这是我在日常使用Linux的过程中积累的一些笔记，供自己日后参考。
+'>
+<meta property='og:url' content='http://criwits.me/post/playing-with-linux/'>
+<meta property='og:site_name' content='CRIWITS — Hans Wan 的博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:published_time' content='2020-03-12T23:23:39Z'/><meta property='article:modified_time' content='2020-03-12T23:23:39Z'/><meta name='twitter:card' content='summary'>
+
+<meta name="generator" content="Hugo 0.80.0" />
+
+  <title>Linux折腾笔记 • CRIWITS — Hans Wan 的博客</title>
+  <link rel='canonical' href='http://criwits.me/post/playing-with-linux/'>
+  
+  
+  <link rel='icon' href='/favicon.ico'>
+<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
+  
+
+</head>
+<body class='page type-post'>
+
+  <div class='site'><a class='screen-reader-text' href='#content'>跳到文章</a><div class='main'><nav id='main-menu' class='menu main-menu' aria-label='主菜单'>
+  <div class='container'>
+    
+    <ul></ul>
+  </div>
+</nav><div class='header-widgets'>
+        <div class='container'>
+    
+    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+  <section class='widget widget-breadcrumbs sep-after'>
+    <nav id='breadcrumbs'>
+      <ol><li><a href='/'>CRIWITS — Hans Wan 的博客</a></li><li><a href='/post/'>Posts</a></li><li><span>Linux折腾笔记</span></li></ol>
+    </nav>
+  </section></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>CRIWITS — Hans Wan 的博客</p><p class='desc site-desc'>Stories and Life</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='zh' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Linux折腾笔记</h1>
+      
+
+    </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+
+</svg>
+<span class='screen-reader-text'>发布 </span>
+  <time class='entry-date' datetime='2020-03-12T23:23:39Z'>2020, Mar 12</time>
+</span>
+
+  
+  
+<span class='reading-time'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+
+</svg>
+需要2分钟读完
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+
+  <div class='container entry-content'>
+  <blockquote>
+<p>这是我在日常使用Linux的过程中积累的一些笔记，供自己日后参考。</p>
+</blockquote>
+<h1 id="系统相关">系统相关</h1>
+<h2 id="grub4dos引导iso启动">Grub4Dos引导ISO启动</h2>
+<p>当手头没有可以使用的U盘来刻录LiveCD时，适合尝试此方法。</p>
+<p>需要准备这些文件：</p>
+<pre><code>ISO本体
+ISO下的casper目录下的vmlinuz和initrd.lz
+ISO下的.disk目录（存疑）
+</code></pre><p>启动命令：</p>
+<pre><code>root (hdx,x)     # 这是存放上面这些文件的磁盘
+kernel /casper/vmlinuz boot=casper iso-scan/filename=/ISO_FILE.iso
+initrd /initrd.lz
+boot
+</code></pre><h2 id="安装字体">安装字体</h2>
+<p>把字体文件复制到<code>~/.fonts</code>就好。</p>
+<blockquote>
+<p>尽量不要把字体装到<code>/usr/share/fonts</code>那里，感觉容易出问题。</p>
+</blockquote>
+<h2 id="老硬件防止内核卡死">老硬件防止内核卡死</h2>
+<ol>
+<li>编辑<code>/etc/default/grub</code>（需要root），在<code>GRUB_CMDLINE_LINUX_DEFAULT</code>这里加上：<code>video=SVIDEO-1:d</code>，保存退出。</li>
+<li>执行（需要root）<code>update-grub</code>和<code>update-grub2</code>更新grub。</li>
+</ol>
+<blockquote>
+<p>对于一部分比较老的硬件（例如我的GL960芯片组），在内核版本≥4.6时，系统会出现间歇性的卡死，<code>dmesg</code>查看会有大量的与<code>kms_helper</code>有关的红字错误。推测与显示有关。这里给出的是一个较好的解决方案。其他的解决方案还有：内核降级、自编译内核等。</p>
+</blockquote>
+<h2 id="英文系统环境配置思源字体的匹配顺序">英文系统环境，配置思源字体的匹配顺序</h2>
+<ol>
+<li>编辑<code>/etc/fonts/conf.avail/64-language-selector-prefer.conf</code>这个文件（需要root），将其中的SC字体调整到顺序表中第一个。</li>
+<li>注销或重新启动。</li>
+</ol>
+<h2 id="安装pantum打印机驱动">安装Pantum打印机驱动</h2>
+<blockquote>
+<p>说明：Pantum作为国产打印机领域的大厂，能为Linux用户提供Linux下的打印机驱动程序，实属不易。</p>
+</blockquote>
+<ol>
+<li>解压<code>Pantum-Ubuntu-Driver-V1-1-5.tar.gz</code>。</li>
+<li>以root方式运行<code>install.sh</code>。</li>
+</ol>
+<h1 id="美化相关">美化相关</h1>
+<h2 id="mate环境配置全局菜单">MATE环境配置全局菜单</h2>
+<ol>
+<li>安装软件包：<code>mate-applet-appmenu</code>、<code>appmenu-gtk2-module</code>、<code>appmenu-gtk3-module</code>、<code>appmenu-gtk-module-common</code>、<code>appmenu-qt</code>。</li>
+<li>执行这两个命令（不要root）</li>
+</ol>
+<pre><code>gsettings set org.mate.interface gtk-shell-shows-app-menu true
+gsettings set org.mate.interface gtk-shell-shows-menubar true
+</code></pre><ol start="3">
+<li>为MATE添加一个上面板（如果没有），然后，添加<code>全局菜单/Global Application Menu</code>插件。</li>
+<li>注销或重启。</li>
+</ol>
+<blockquote>
+<p>已知问题：小概率崩溃，重新启动插件即可；偶尔启动后全局菜单未正常启动，只能注销后重新登录。</p>
+</blockquote>
+<h2 id="material-design风格的主题gtk23">Material Design风格的主题（GTK2/3）</h2>
+<p>这个主题叫做<code>Adapta</code>。Github地址：<a href="https://github.com/adapta-project/adapta-gtk-theme">Adapta</a>。</p>
+<p>安装：</p>
+<ol start="0">
+<li>系统需要有这些软件包：</li>
+</ol>
+<pre><code> * autoconf
+ * automake
+ * inkscape                                  &gt;= 0.91
+ * libgdk-pixbuf2.0-dev (gdk-pixbuf2-devel)  &gt;= 2.32.2
+ * libglib2.0-dev (glib2-devel)              &gt;= 2.48.0
+ * libxml2-utils (libxml2)
+ * pkg-config (pkgconfig)
+ * sassc                                     &gt;= 3.3
+</code></pre><ol>
+<li>克隆这个project。</li>
+</ol>
+<pre><code>git clone https://github.com/adapta-project/adapta-gtk-theme.git
+</code></pre><ol start="2">
+<li><code>cd</code>到<code>adapta-gtk-theme</code>目录下。</li>
+<li>依次执行：</li>
+</ol>
+<pre><code>./autogen.sh --prefix=/usr
+make
+sudo make install
+</code></pre><blockquote>
+<p>这需要渲染大量的Inkscape文件，所以会花费比较长的时间。</p>
+</blockquote>
+<ol start="4">
+<li>进入自己桌面环境的tweak，修改主题。</li>
+</ol>
+<blockquote>
+<p>图标包推荐<code>papirus-icon-theme</code>，有专为<code>Adapta</code>适配的图标集。</p>
+</blockquote>
+<h1 id="软件相关">软件相关</h1>
+<h2 id="deepin-wine配置微软雅黑">Deepin Wine配置微软雅黑</h2>
+<blockquote>
+<p>说明：Deepin Wine本来会自动地将系统中没有的专有字体（如Simsun宋体、微软雅黑等）自动fallback到思源黑体。但是，如果系统中安装了这些字体，Wine会忽略原先约定好的替换规则，使用Simsun作为系统环境的主字体。在DPI不高的情况下，Simsun的渲染效果实在不堪入目，所以我们需要手动地去配置微软雅黑作为（Deepin）Wine的主字体。</p>
+</blockquote>
+<h3 id="仿制中文宋体以避免fallback到simsun也许不需要这个步骤">仿制中文宋体，以避免fallback到Simsun（也许不需要这个步骤）</h3>
+<ol>
+<li>使用Wine安装Font Creator。</li>
+<li>打开<code>simsun.ttf</code>，将所有<code>SimSun</code>字段更换为<code>Songti SC</code>。</li>
+<li>导出ttf字体，安装至系统环境。</li>
+</ol>
+<h3 id="为wine安装微软雅黑">为Wine安装微软雅黑</h3>
+<p>将<code>msyh.ttf</code>复制到<code>~/.deepin-wine/Deepin-*/drive_c/windows/fonts</code>。</p>
+<h3 id="配置wine程序">配置Wine程序</h3>
+<ol>
+<li>编辑<code>~/.deepin-wine/Deepin-*/system.reg</code>。</li>
+<li>寻找<code>simsun</code>字段，把附近的所有字体名字都改成<code>msyh.ttf</code>。</li>
+<li>保存退出。尝试启动Wine程序，观察字体是否理想。</li>
+</ol>
+<blockquote>
+<p>注意：只能使用原生微软雅黑，其他字体此法似乎不通（实测TTF版本的思源黑体不行）。</p>
+</blockquote>
+<h2 id="英文系统环境deepin-wine出现方框">英文系统环境，Deepin Wine出现方框</h2>
+<ol>
+<li>打开<code>/opt/deepinwine/tools/run.sh</code>（需要root）。</li>
+<li>将<code>WINE_CMD</code>后的内容改为<code>LC_ALL=zh_CN.UTF-8 deepin-wine</code>。</li>
+<li>保存退出。</li>
+</ol>
+<h2 id="deepin-wine程序启动winecfg">Deepin Wine程序启动<code>winecfg</code></h2>
+<p>执行<code>env WINEPREFIX=&quot;/home/hans/.deepinwine/Deepin-*&quot; deepin-wine winecfg</code>。</p>
+<blockquote>
+<p>可以将<code>winecfg</code>替换成<code>regedit</code>等以启动其他系统固有程序。</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<h2 id="deepin-wine程序无法下载图片含聊天图片和头像">Deepin Wine程序无法下载图片（含聊天图片和头像）</h2>
+<p>这个问题是系统启用了IPv6所致。详情：<a href="https://github.com/wszqkzqk/deepin-wine-ubuntu/issues/222">Github</a>。</p>
+<p>解决方案：</p>
+<ol>
+<li>打开<code>/etc/sysctl.conf</code>（需要root）。</li>
+<li>在这个文件的末尾加上：</li>
+</ol>
+<pre><code># IPv6 disabled
+net.ipv6.conf.all.disable_ipv6 =1
+net.ipv6.conf.default.disable_ipv6 =1
+net.ipv6.conf.lo.disable_ipv6 =1
+</code></pre><p>保存退出。
+3. 以root方式运行<code>sysctl -p</code>。
+4. 重新启动Deepin Wine应用。</p>
+<blockquote>
+<p>参考了<a href="https://www.cnblogs.com/crab-in-the-northeast/p/deepin-wine-qq-cannot-load-pic.html">东北小蟹蟹的博客</a>。</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<p><strong>此方法失效！</strong></p>
+<h2 id="scrcpy安卓控制软件">Scrcpy：安卓控制软件</h2>
+<p>Github地址：<a href="https://github.com/Genymobile/scrcpy">Scrcpy</a></p>
+<p>参照项目说明中的方法编译（需提前下载<code>scrcpy-server</code>文件）。</p>
+<h2 id="kde-connect无缝连接手机和电脑">KDE Connect：无缝连接手机和电脑</h2>
+<p>这个软件是KDE的一部分，但它也可以在其他的桌面环境上使用。</p>
+<p>安装<code>kde-connect</code>软件包即可。它应该被包含在多个发行版的软件仓库中。</p>
+<p>可以在自己的桌面环境的设置中，为<code>kde-connect-indicator</code>配置自启动。</p>
+<blockquote>
+<p>有几个bug：一是无法浏览手机文件，二是logo始终是黑色，目前没有找到好的解决方案。</p>
+</blockquote>
+<h2 id="microsoft部分优秀软件的源地址">Microsoft部分优秀软件的源地址</h2>
+<p>Skype：<code>deb https://repo.skype.com/deb stable main</code>
+Microsoft Teams：<code>deb https://packages.microsoft.com/repos/ms-teams stable main</code></p>
+<blockquote>
+<p><del>Microsoft是一个优质的Linux应用提供商（滑稽）。</del></p>
+</blockquote>
+<h2 id="wps数学公式字体">WPS数学公式字体</h2>
+<ol>
+<li>从Windows中提取出这些字体（有几个是几个）：</li>
+</ol>
+<pre><code>MTCORSVA.TTF
+WINGDNG2.TTF
+courbi.ttf
+couri.ttf
+cour.ttf
+courbd.ttf
+monotypesorts.ttf
+Mt Extra Tiger.ttf
+mtextra_01.ttf
+Symbol Tiger Expert.ttf
+symbol.ttf
+Symbol Tiger.ttf
+wingding.ttf
+WINGDNG3.ttf
+</code></pre><ol start="2">
+<li>将这些字体安装到Linux中。</li>
+</ol>
+<blockquote>
+<p>这是一种不自由的做法。另外这般操作后虽然能正确显示公式了，对于使用MathType生成的公式显示效果尚可，但对于域代码公式，效果惨不忍睹。希望WPS修复这个吧。</p>
+</blockquote>
+<blockquote>
+<p>另：可能需要Times New Roman（笑）。</p>
+</blockquote>
+<h2 id="另一个在linux下使用qq和tim的解决方案">另一个在Linux下使用QQ和TIM的解决方案</h2>
+<h3 id="背景">背景</h3>
+<p>用由<code>wszqkzqk</code>同学打包的<a href="https://github.com/wszqkzqk/deepin-wine-ubuntu">Deepin Wine Ubuntu</a>搭配Deepin Wine团队制作的Windows软件包（QQ和TIM）在Linux下使用这些软件曾经是一个很不错的解决方案：足够稳定、没有方框、乱码等等。但是，自2019年11月以来，Deepin Wine容器中的QQ、TIM软件无法接受到图片（参考本笔记的其他部分和<a href="https://github.com/wszqkzqk/deepin-wine-ubuntu/issues/222">这个Issue</a>）。有人提出禁用IPv6即可解决此问题。然而，实验表明，禁用IPv6后，仅仅头像可以正常加载，登录5min后依旧无法加载聊天图片。</p>
+<p>此外，我也尝试了直接使用原版安装包在Deepin Wine容器里覆盖安装的方法，依旧没能解决问题。</p>
+<p>我也尝试了使用安卓虚拟机。但是，我的Intel® Core® 2 Duo T7700处理器并不支持xDroid，而尝试其他的安卓模拟器均以失败告终。</p>
+<p>无奈之下，我选择了本文的方案：</p>
+<p><strong>使用VirtualBox虚拟一个尽可能小的Windows环境，在这个环境里使用TIM。</strong></p>
+<h3 id="实操">实操</h3>
+<h4 id="安装虚拟机">安装虚拟机</h4>
+<p>虚拟机软件，我选用了Oracle VM Virtual Box。</p>
+<p>安装Virtual Box很简单，我的经验是<strong>不要从系统的软件仓库安装</strong>，即不要直接在终端里用<code>apt install</code>安装<code>virtualbox</code>。直接从合适的镜像站（如<a href="https://mirrors.tuna.tsinghua.edu.cn/virtualbox/">TUNA</a>）下载deb包安装才是最好的解决方案。安装建议用GDebi，方便解决依赖问题。</p>
+<h4 id="安装windows系统">安装Windows系统</h4>
+<p>虚拟机内的Windows系统我选择了Windows XP。尽管老，但它小巧。我就是想装个TIM，如果用Windows 7以后的系统，我至少需要10GB的磁盘空间、以及为了运转一个Windows的2GB内存。相比之下，XP只需要3GB以内的磁盘空间和386MB的内存（并且运行着TIM）。</p>
+<p>安装大致步骤如下：</p>
+<ol>
+<li>去<a href="https://msdn.itellyou.cn/">ITellYou</a>下载Windows XP Professional with SP1 的ISO。</li>
+<li>进入Oracle VM Virtual Box，新建一台虚拟电脑。存储方面可以选择动态存储，内存分配386MB即可。</li>
+<li>将Windows XP的ISO装载到虚拟机光驱上，并从此ISO启动。</li>
+<li>“下一步”“我同意”“下一步”……</li>
+</ol>
+<h4 id="配置windows系统">配置Windows系统</h4>
+<ol>
+<li>安装装VirtualBox的系统内工具。然后启用共享文件夹、共通剪切板（双向）和拖拽（双向）。</li>
+<li>进入虚拟机的设置，将网卡的模式选为桥接。</li>
+<li>给XP打<code>KB931125-rootsupd</code>这个补丁。直接下载安装即可。</li>
+<li>安装MacType，并设置为注册表加载。</li>
+<li>准备<code>msyh.ttf</code>，复制到<code>C:\Windows\Fonts</code>。</li>
+<li>准备<code>yahei_font</code>字体替换包，运行<code>setup.cmd</code>。</li>
+<li>重启虚拟机。</li>
+</ol>
+<h4 id="安装软件">安装软件</h4>
+<p>TIM/QQ，手心输入法。我安装的就这两个。</p>
+<p>为了优化使用体验，可以将系统的任务栏设为自动隐藏，然后把TIM最大化。这样沉浸感就比较强，在Linux体验会更好。</p>
+<h3 id="使用体验">使用体验</h3>
+<p>首先，这并不是一个最好的解决方案。没有人会愿意用一个占硬盘4GB、占内存600MB的TIM。然而，在Deepin Wine TIM无法接收图片、原生LinuxQQ梦回十年前的情况下，这或许是目前唯一一个在Linux环境下正常使用腾讯家族软件的方法了。</p>
+<p>从使用体验的角度来说，并不差。整个虚拟机作为Linux的一个窗口，这个窗口里是最大化的TIM，除了有个小小的双额头以外，和一个原生Linux应用没什么两样。VirtualBox支持WindowsXP的鼠标自动切换，因此鼠标移来移去不成问题。在启用了双向拖拽、双向剪切板互通之后，虚拟机内外浑然一体，基本操作不受影响。总之，体验尚可。</p>
+<h2 id="ubuntu-1804-安装gimp-210">Ubuntu 18.04 安装GIMP 2.10</h2>
+<p>Ubunut默认软件源里的GIMP最新只到2.8。若想体验2.10，需要这样操作：</p>
+<pre><code>sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+sudo apt-get update
+sudo apt install gimp
+</code></pre><blockquote>
+<p>注意：存在依赖冲突。目前已知的是安装此GIMP后MyPaint无法使用。</p>
+</blockquote>
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+    <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+
+</svg>
+<span class='screen-reader-text'>分类: </span><a class='category' href='/categories/%E6%8A%80%E6%9C%AF/'>技术</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/post/soviet-union-cheers-wuhan-up/'>
+        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+
+</svg>
+ 上一个</span>
+        <span class='screen-reader-text'>上一篇文章: </span>苏维埃社会主义共和国联盟致中国人民的公开信</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/post/playing-with-windows/'>
+        <span class='screen-reader-text'>下一篇文章: </span>一台新 Windows 电脑的折腾日记<span aria-hidden='true'>下一个 <svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+
+</svg>
+</span>
+      </a>
+    </div></div>
+</nav>
+
+
+
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><section class='widget widget-social_menu sep-after'><nav aria-label='社交菜单'>
+    <ul><li>
+        <a href='https://github.com/criwits' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>在新标签打开Github的账户</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    
+      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:hanswan@tom.com' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'>通过邮件联系</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><div class='copyright'>
+  <p> &copy; 2016-2021 Hans Wan </p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__assets_js_src="/assets/js/"</script>
+
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
+
+</body>
+
+</html>
+
