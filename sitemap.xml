@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://criwits.me/about/</loc>
+    <lastmod>2021-01-04T19:59:25+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://criwits.me/categories/</loc>
-    <lastmod>2020-08-04T20:23:52+00:00</lastmod>
+    <lastmod>2020-12-29T20:30:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://criwits.me/</loc>
-    <lastmod>2020-08-04T20:23:52+00:00</lastmod>
+    <lastmod>2020-12-29T20:30:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://criwits.me/post/</loc>
-    <lastmod>2020-08-04T20:23:52+00:00</lastmod>
+    <lastmod>2020-12-29T20:30:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/categories/%E8%AF%97%E8%B5%8B/</loc>
+    <lastmod>2020-12-29T20:30:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/post/this-year/</loc>
+    <lastmod>2020-12-29T20:30:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/post/light-in-your-heart/</loc>
+    <lastmod>2020-12-15T20:28:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/post/you-are-not-hou-lang/</loc>
+    <lastmod>2020-11-01T20:12:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/categories/%E9%9A%8F%E6%83%B3/</loc>
+    <lastmod>2020-11-01T20:12:53+08:00</lastmod>
   </url>
   
   <url>
@@ -25,6 +55,11 @@
   <url>
     <loc>http://criwits.me/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2020-08-04T20:23:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/post/a-speech-changed-exam/</loc>
+    <lastmod>2020-06-06T20:10:22+08:00</lastmod>
   </url>
   
   <url>
@@ -44,11 +79,6 @@
   
   <url>
     <loc>http://criwits.me/post/week-6and7/</loc>
-    <lastmod>2020-02-16T23:33:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://criwits.me/categories/%E9%9A%8F%E6%83%B3/</loc>
     <lastmod>2020-02-16T23:33:21+00:00</lastmod>
   </url>
   
