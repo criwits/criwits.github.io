@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on CRIWITS — Hans Wan 的博客</title>
+    <title>Categories on CRIWITS | Hans Wan 的博客</title>
     <link>http://criwits.me/categories/</link>
-    <description>Recent content in Categories on CRIWITS — Hans Wan 的博客</description>
+    <description>Recent content in Categories on CRIWITS | Hans Wan 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
     <lastBuildDate>Tue, 04 Aug 2020 20:23:52 +0000</lastBuildDate><atom:link href="http://criwits.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>技术</title>
@@ -16,29 +17,20 @@
     </item>
     
     <item>
-      <title>短文</title>
-      <link>http://criwits.me/categories/%E7%9F%AD%E6%96%87/</link>
+      <title>故事</title>
+      <link>http://criwits.me/categories/%E6%95%85%E4%BA%8B/</link>
       <pubDate>Mon, 24 Feb 2020 08:25:27 +0000</pubDate>
       
-      <guid>http://criwits.me/categories/%E7%9F%AD%E6%96%87/</guid>
+      <guid>http://criwits.me/categories/%E6%95%85%E4%BA%8B/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>周评</title>
-      <link>http://criwits.me/categories/%E5%91%A8%E8%AF%84/</link>
+      <title>随想</title>
+      <link>http://criwits.me/categories/%E9%9A%8F%E6%83%B3/</link>
       <pubDate>Sun, 16 Feb 2020 23:33:21 +0000</pubDate>
       
-      <guid>http://criwits.me/categories/%E5%91%A8%E8%AF%84/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>随笔</title>
-      <link>http://criwits.me/categories/%E9%9A%8F%E7%AC%94/</link>
-      <pubDate>Fri, 24 Jan 2020 18:36:33 +0000</pubDate>
-      
-      <guid>http://criwits.me/categories/%E9%9A%8F%E7%AC%94/</guid>
+      <guid>http://criwits.me/categories/%E9%9A%8F%E6%83%B3/</guid>
       <description></description>
     </item>
     

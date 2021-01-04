@@ -1,164 +1,105 @@
-<!DOCTYPE html>
-<html lang='zh' dir='auto'><head>
-  <meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='近日，Hans 的一朋友 Green Dragonfly 购买了一台新机，型号是联想的 Y7000P（i7-10875H，32GB 内存，1TB 固态硬盘，预装 Windows 10）。入手第二天，他便携机来访寒舍，想一起给电脑安些常用软件，做些优化。为使得我们的折腾过程有个记录，特开此文，一一记之。'>
-<meta name='theme-color' content='#6666cc'>
+<!doctype html>
+<html lang="zh-CN">
+<head>
 
-<meta property='og:title' content='一台新 Windows 电脑的折腾日记 • CRIWITS — Hans Wan 的博客'>
-<meta property='og:description' content='近日，Hans 的一朋友 Green Dragonfly 购买了一台新机，型号是联想的 Y7000P（i7-10875H，32GB 内存，1TB 固态硬盘，预装 Windows 10）。入手第二天，他便携机来访寒舍，想一起给电脑安些常用软件，做些优化。为使得我们的折腾过程有个记录，特开此文，一一记之。'>
-<meta property='og:url' content='http://criwits.me/post/playing-with-windows/'>
-<meta property='og:site_name' content='CRIWITS — Hans Wan 的博客'>
-<meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:published_time' content='2020-08-04T20:23:52Z'/><meta property='article:modified_time' content='2020-08-04T20:23:52Z'/><meta name='twitter:card' content='summary'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
 
-<meta name="generator" content="Hugo 0.80.0" />
+    <title>一台新 Windows 电脑的折腾日记 | CRIWITS | Hans Wan 的博客</title>
+    <meta property="og:title" content="一台新 Windows 电脑的折腾日记 - CRIWITS | Hans Wan 的博客">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2020-08-04T20:23:52&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2020-08-04T20:23:52&#43;08:00'>
+        
+    <meta name="Keywords" content="汉语文学,C 语言,Rust 语言,Linux,LaTeX 技术,排印学,摄影,绘画">
+    <meta name="description" content="一台新 Windows 电脑的折腾日记">
+        
+    <meta name="author" content="Hans Wan">
+    <meta property="og:url" content="http://criwits.me/post/playing-with-Windows/">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
-  <title>一台新 Windows 电脑的折腾日记 • CRIWITS — Hans Wan 的博客</title>
-  <link rel='canonical' href='http://criwits.me/post/playing-with-windows/'>
-  
-  
-  <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
-:root{--color-accent:#6666cc;}
-</style>
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  
-
+    
+    
+    
+    
+    
+    
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
-<body class='page type-post has-sidebar'>
-
-  <div class='site'><div id='sidebar' class='sidebar'>
-  <a class='screen-reader-text' href='#main-menu'>跳到主页</a>
-
-  <div class='container'><section class='widget widget-about sep-after'>
-  <header>
-    
-    <div class='logo'>
-      <a href='/'>
-        <img src='/images/logo.png'>
-      </a>
-    </div>
-    
-    <h2 class='title site-title '>
-      <a href='/'>
-      CRIWITS — Hans Wan 的博客
-      </a>
-    </h2>
-    <div class='desc'>
-    Stories and Life
-    </div>
-  </header>
-
-</section>
-<section class='widget widget-search sep-after'>
-  <header>
-    <h4 class='title widget-title'>Search</h4>
-  </header>
-
-  <form action='/search' id='search-form' class='search-form'>
-    <label>
-      <span class='screen-reader-text'>Search</span>
-      <input id='search-term' class='search-term' type='search' name='q' placeholder='Search&hellip;'>
-    </label></form>
-
-</section>
-<section class='widget widget-taxonomy_cloud sep-after'>
-  <header>
-    <h4 class='title widget-title'>标签</h4>
-  </header>
-
-  <div class='container list-container'>
-  <ul class='list taxonomy-cloud'><span>一个标签也没有!</span></ul>
-</div>
 
 
-</section>
-</div>
-
-  <div class='sidebar-overlay'></div>
-</div><div class='main'><nav id='main-menu' class='menu main-menu' aria-label='主菜单'>
-  <div class='container'>
-    <a class='screen-reader-text' href='#content'>跳到文章</a>
-
-<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
-  <span class='screen-reader-text'>切换侧边栏</span>
-  <span class='open'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="3" y1="12" x2="21" y2="12" />
-  <line x1="3" y1="6" x2="21" y2="6" />
-  <line x1="3" y1="18" x2="21" y2="18" />
-
-</svg>
-</span>
-  <span class='close'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="18" y1="6" x2="6" y2="18" />
-  <line x1="6" y1="6" x2="18" y2="18" />
-
-</svg>
-</span>
-</button>
-    <ul></ul>
-  </div>
-</nav><div class='header-widgets'>
-        <div class='container'>
-    
-    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
-  <section class='widget widget-breadcrumbs sep-after'>
-    <nav id='breadcrumbs'>
-      <ol><li><a href='/'>CRIWITS — Hans Wan 的博客</a></li><li><a href='/post/'>Posts</a></li><li><span>一台新 Windows 电脑的折腾日记</span></li></ol>
-    </nav>
-  </section></div>
-      </div>
-
-      <header id='header' class='header site-header'>
-        <div class='container sep-after'>
-          <div class='header-info'><p class='site-title title'>CRIWITS — Hans Wan 的博客</p><p class='desc site-desc'>Stories and Life</p>
-          </div>
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="http://criwits.me">
+                        CRIWITS | Hans Wan 的博客
+                    </a>
+                
+                <p class="description">Stories and Life</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="http://criwits.me">首页</a>
+                    
+                    <a  href="http://criwits.me/archives/" title="归档">归档</a>
+                    
+                    <a  href="http://criwits.me/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
         </div>
-      </header>
-
-      <main id='content'>
-
-
-<article lang='zh' class='entry'>
-  <header class='header entry-header'>
-  <div class='container sep-after'>
-    <div class='header-info'>
-      <h1 class='title'>一台新 Windows 电脑的折腾日记</h1>
-      
-
     </div>
-    <div class='entry-meta'>
-  <span class='posted-on'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-  <line x1="16" y1="2" x2="16" y2="6"/>
-  <line x1="8" y1="2" x2="8" y2="6"/>
-  <line x1="3" y1="10" x2="21" y2="10"/>
-
-</svg>
-<span class='screen-reader-text'>发布 </span>
-  <time class='entry-date' datetime='2020-08-04T20:23:52Z'>2020, Aug 04</time>
-</span>
-
-  
-  
-
-</div>
-
-
-  </div>
 </header>
 
-  
-  
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
 
-  <div class='container entry-content'>
-  <p>近日，Hans 的一朋友 <strong>Green Dragonfly</strong> 购买了一台新机，型号是联想的 Y7000P（i7-10875H，32GB 内存，1TB 固态硬盘，预装 Windows 10）。入手第二天，他便携机来访寒舍，想一起给电脑安些常用软件，做些优化。为使得我们的折腾过程有个记录，特开此文，一一记之。</p>
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">一台新 Windows 电脑的折腾日记</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年8月4日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E6%8A%80%E6%9C%AF'>技术</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p>近日，Hans 的一朋友 <strong>Green Dragonfly</strong> 购买了一台新机，型号是联想的 Y7000P（i7-10875H，32GB 内存，1TB 固态硬盘，预装 Windows 10）。入手第二天，他便携机来访寒舍，想一起给电脑安些常用软件，做些优化。为使得我们的折腾过程有个记录，特开此文，一一记之。</p>
 <h1 id="软件篇">软件篇</h1>
 <h2 id="网络软件">网络软件</h2>
 <h3 id="浏览器firefox">浏览器：Firefox</h3>
@@ -228,77 +169,200 @@
 <h1 id="一个小小的总结">一个小小的总结</h1>
 <p>可以看到，我们选择软件大多以小巧、轻量、免费、开源等为选择标准。小巧轻量，意味着在存储空间有限的情况下，能让我们有更多的余地放下更多应该放下的东西。免费，意味着我们不需要跑遍全网冒着下到病毒的奉献寻找一个“破解版”。开源，意味着我们的隐私安全能够得到保障。并不是说庞大的、收费的、闭源的软件都不好，只是在互联网的洪流面前，小巧轻量、免费开源能够让我们把电脑用的更顺手罢了。</p>
 <p>如果大家还有什么优秀软件和实用技巧，欢迎联系 Hans。我的联系方式在网站册侧边栏里有哦。</p>
+        </div>
+
+        
+<div class="post-archive">
+    <ul class="post-copyright">
+        <li><strong>原文作者：</strong><a rel="author" href="http://criwits.me">Hans Wan</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://criwits.me/post/playing-with-Windows/">http://criwits.me/post/playing-with-Windows/</a></li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+    </ul>
+</div>
+<br/>
+
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/playing-with-Linux/">Linux折腾笔记</a></li>
+        
+        <li><a href="/post/soviet-union-cheers-wuhan-up/">苏维埃社会主义共和国联盟致中国人民的公开信</a></li>
+        
+        <li><a href="/post/week-6and7/">第六周&amp;第七周</a></li>
+        
+        <li><a href="/post/week-5/">第五周</a></li>
+        
+        <li><a href="/post/happy-chinese-new-year/">我的庚子（鼠）年新春贺词</a></li>
+        
+    </ul>
 </div>
 
-  
-<footer class='entry-footer'>
-  <div class='container sep-before'><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+
+        <div class="post-meta meta-tags">
+            
+            没有标签
+            
+        </div>
+    </article>
     
     
-    <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
 
-</svg>
-<span class='screen-reader-text'>分类: </span><a class='category' href='/categories/%E6%8A%80%E6%9C%AF/'>技术</a></div>
+    
+    
+</div>
 
-  </div>
+                    <footer id="footer">
+    <div>
+        &copy; 2021 <a href="http://criwits.me">CRIWITS | Hans Wan 的博客 By Hans Wan</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/criwits" target="_black"><span class="badge-subject">Copyright</span><span class="badge-value bg-brightgreen">Hans Wan (criwits)</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
 </footer>
 
 
-</article>
-
-<nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='/post/playing-with-linux/'>
-        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/douban.js'></script>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='http://criwits.me/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="http://criwits.me">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
     
-  <line x1="20" y1="12" x2="4" y2="12"/>
-  <polyline points="10 18 4 12 10 6"/>
-
-</svg>
- 上一个</span>
-        <span class='screen-reader-text'>上一篇文章: </span>Linux折腾笔记</a>
-    </div></div>
-</nav>
-
-
-
-
-      </main>
-
-      <footer id='footer' class='footer'>
-        <div class='container sep-before'><section class='widget widget-social_menu sep-after'><nav aria-label='社交菜单'>
-    <ul><li>
-        <a href='https://github.com/criwits' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>在新标签打开Github的账户</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
     
+    <li>
+        <a href="http://criwits.me/post/playing-with-Windows/" title="一台新 Windows 电脑的折腾日记">一台新 Windows 电脑的折腾日记</a>
+    </li>
     
-      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    <li>
+        <a href="http://criwits.me/post/playing-with-Linux/" title="Linux折腾笔记">Linux折腾笔记</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/soviet-union-cheers-wuhan-up/" title="苏维埃社会主义共和国联盟致中国人民的公开信">苏维埃社会主义共和国联盟致中国人民的公开信</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/week-6and7/" title="第六周&amp;第七周">第六周&amp;第七周</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/week-5/" title="第五周">第五周</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/happy-chinese-new-year/" title="我的庚子（鼠）年新春贺词">我的庚子（鼠）年新春贺词</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/new-illness/" title="有感于2019—2020新型冠状病毒肺炎事件">有感于2019—2020新型冠状病毒肺炎事件</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/week-3/" title="第三周">第三周</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/tower/" title="灯塔">灯塔</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/week-2/" title="第二周">第二周</a>
+    </li>
+    
+</ul>
+    </section>
 
-</svg>
-</a>
-      </li><li>
-        <a href='mailto:hanswan@tom.com' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>通过邮件联系</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
-    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
-</svg>
-</a>
-      </li></ul>
-  </nav>
-</section><div class='copyright'>
-  <p> &copy; 2016-2021 Hans Wan </p>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
+<ul class="widget-list">
+    
+    <li><a href="http://criwits.me/categories/%E6%8A%80%E6%9C%AF/">技术 (2)</a></li>
+    
+    <li><a href="http://criwits.me/categories/%E6%95%85%E4%BA%8B/">故事 (2)</a></li>
+    
+    <li><a href="http://criwits.me/categories/%E9%9A%8F%E6%83%B3/">随想 (7)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
+<div class="tagcloud">
+    
 </div>
+    </section>
 
+    
+<section class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="http://www.chiro.work/" title="Chiro 的博客">Chiro 的博客</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="http://criwits.me/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
         </div>
-      </footer>
-
     </div>
-  </div><script>window.__assets_js_src="/assets/js/"</script>
-
-<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
-
 </body>
 
 </html>
-

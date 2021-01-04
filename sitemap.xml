@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://criwits.me/about/</loc>
-    <lastmod>2021-01-03T22:05:04+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://criwits.me/categories/</loc>
     <lastmod>2020-08-04T20:23:52+00:00</lastmod>
   </url>
@@ -23,7 +18,7 @@
   </url>
   
   <url>
-    <loc>http://criwits.me/post/playing-with-windows/</loc>
+    <loc>http://criwits.me/post/playing-with-Windows/</loc>
     <lastmod>2020-08-04T20:23:52+00:00</lastmod>
   </url>
   
@@ -33,12 +28,12 @@
   </url>
   
   <url>
-    <loc>http://criwits.me/post/playing-with-linux/</loc>
+    <loc>http://criwits.me/post/playing-with-Linux/</loc>
     <lastmod>2020-03-12T23:23:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://criwits.me/categories/%E7%9F%AD%E6%96%87/</loc>
+    <loc>http://criwits.me/categories/%E6%95%85%E4%BA%8B/</loc>
     <lastmod>2020-02-24T08:25:27+00:00</lastmod>
   </url>
   
@@ -48,12 +43,12 @@
   </url>
   
   <url>
-    <loc>http://criwits.me/categories/%E5%91%A8%E8%AF%84/</loc>
+    <loc>http://criwits.me/post/week-6and7/</loc>
     <lastmod>2020-02-16T23:33:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://criwits.me/post/week-6and7/</loc>
+    <loc>http://criwits.me/categories/%E9%9A%8F%E6%83%B3/</loc>
     <lastmod>2020-02-16T23:33:21+00:00</lastmod>
   </url>
   
@@ -64,11 +59,6 @@
   
   <url>
     <loc>http://criwits.me/post/happy-chinese-new-year/</loc>
-    <lastmod>2020-01-24T18:36:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://criwits.me/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2020-01-24T18:36:33+00:00</lastmod>
   </url>
   
@@ -98,15 +88,15 @@
   </url>
   
   <url>
-    <loc>http://criwits.me/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>http://criwits.me/series/</loc>
-  </url>
-  
-  <url>
     <loc>http://criwits.me/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://criwits.me/search/</loc>
   </url>
   
 </urlset>

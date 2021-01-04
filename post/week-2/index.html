@@ -1,252 +1,301 @@
-<!DOCTYPE html>
-<html lang='zh' dir='auto'><head>
-  <meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='　　2020年的第二周，也是这个新十年“完整的”第一周就这么过去了。似乎这是颇不宁静的一周：美国和伊朗的纠纷加剧，好像起先是美国击杀了伊朗的一位高级将领，然后伊朗扬言报复美国，对美国宣战，川普就在推特上说什么“要用漂亮的武器回击他们”，伊朗遂又把美国五角大楼定性为“恐怖组织”之类的，总之是乱得不行。'>
-<meta name='theme-color' content='#6666cc'>
+<!doctype html>
+<html lang="zh-CN">
+<head>
 
-<meta property='og:title' content='第二周 • CRIWITS — Hans Wan 的博客'>
-<meta property='og:description' content='　　2020年的第二周，也是这个新十年“完整的”第一周就这么过去了。似乎这是颇不宁静的一周：美国和伊朗的纠纷加剧，好像起先是美国击杀了伊朗的一位高级将领，然后伊朗扬言报复美国，对美国宣战，川普就在推特上说什么“要用漂亮的武器回击他们”，伊朗遂又把美国五角大楼定性为“恐怖组织”之类的，总之是乱得不行。'>
-<meta property='og:url' content='http://criwits.me/post/week-2/'>
-<meta property='og:site_name' content='CRIWITS — Hans Wan 的博客'>
-<meta property='og:type' content='article'><meta property='article:section' content='post'><meta property='article:published_time' content='2020-01-10T22:47:45Z'/><meta property='article:modified_time' content='2020-01-10T22:47:45Z'/><meta name='twitter:card' content='summary'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
 
-<meta name="generator" content="Hugo 0.80.0" />
+    <title>第二周 | CRIWITS | Hans Wan 的博客</title>
+    <meta property="og:title" content="第二周 - CRIWITS | Hans Wan 的博客">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2020-01-10T22:47:45&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2020-01-10T22:47:45&#43;08:00'>
+        
+    <meta name="Keywords" content="汉语文学,C 语言,Rust 语言,Linux,LaTeX 技术,排印学,摄影,绘画">
+    <meta name="description" content="第二周">
+        
+    <meta name="author" content="Hans Wan">
+    <meta property="og:url" content="http://criwits.me/post/week-2/">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
-  <title>第二周 • CRIWITS — Hans Wan 的博客</title>
-  <link rel='canonical' href='http://criwits.me/post/week-2/'>
-  
-  
-  <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
-:root{--color-accent:#6666cc;}
-</style>
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  
-
+    
+    
+    
+    
+    
+    
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
-<body class='page type-post has-sidebar'>
-
-  <div class='site'><div id='sidebar' class='sidebar'>
-  <a class='screen-reader-text' href='#main-menu'>跳到主页</a>
-
-  <div class='container'><section class='widget widget-about sep-after'>
-  <header>
-    
-    <div class='logo'>
-      <a href='/'>
-        <img src='/images/logo.png'>
-      </a>
-    </div>
-    
-    <h2 class='title site-title '>
-      <a href='/'>
-      CRIWITS — Hans Wan 的博客
-      </a>
-    </h2>
-    <div class='desc'>
-    Stories and Life
-    </div>
-  </header>
-
-</section>
-<section class='widget widget-search sep-after'>
-  <header>
-    <h4 class='title widget-title'>Search</h4>
-  </header>
-
-  <form action='/search' id='search-form' class='search-form'>
-    <label>
-      <span class='screen-reader-text'>Search</span>
-      <input id='search-term' class='search-term' type='search' name='q' placeholder='Search&hellip;'>
-    </label></form>
-
-</section>
-<section class='widget widget-taxonomy_cloud sep-after'>
-  <header>
-    <h4 class='title widget-title'>标签</h4>
-  </header>
-
-  <div class='container list-container'>
-  <ul class='list taxonomy-cloud'><span>一个标签也没有!</span></ul>
-</div>
 
 
-</section>
-</div>
-
-  <div class='sidebar-overlay'></div>
-</div><div class='main'><nav id='main-menu' class='menu main-menu' aria-label='主菜单'>
-  <div class='container'>
-    <a class='screen-reader-text' href='#content'>跳到文章</a>
-
-<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
-  <span class='screen-reader-text'>切换侧边栏</span>
-  <span class='open'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="3" y1="12" x2="21" y2="12" />
-  <line x1="3" y1="6" x2="21" y2="6" />
-  <line x1="3" y1="18" x2="21" y2="18" />
-
-</svg>
-</span>
-  <span class='close'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <line x1="18" y1="6" x2="6" y2="18" />
-  <line x1="6" y1="6" x2="18" y2="18" />
-
-</svg>
-</span>
-</button>
-    <ul></ul>
-  </div>
-</nav><div class='header-widgets'>
-        <div class='container'>
-    
-    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
-  <section class='widget widget-breadcrumbs sep-after'>
-    <nav id='breadcrumbs'>
-      <ol><li><a href='/'>CRIWITS — Hans Wan 的博客</a></li><li><a href='/post/'>Posts</a></li><li><span>第二周</span></li></ol>
-    </nav>
-  </section></div>
-      </div>
-
-      <header id='header' class='header site-header'>
-        <div class='container sep-after'>
-          <div class='header-info'><p class='site-title title'>CRIWITS — Hans Wan 的博客</p><p class='desc site-desc'>Stories and Life</p>
-          </div>
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="http://criwits.me">
+                        CRIWITS | Hans Wan 的博客
+                    </a>
+                
+                <p class="description">Stories and Life</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="http://criwits.me">首页</a>
+                    
+                    <a  href="http://criwits.me/archives/" title="归档">归档</a>
+                    
+                    <a  href="http://criwits.me/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
         </div>
-      </header>
-
-      <main id='content'>
-
-
-<article lang='zh' class='entry'>
-  <header class='header entry-header'>
-  <div class='container sep-after'>
-    <div class='header-info'>
-      <h1 class='title'>第二周</h1>
-      
-
     </div>
-    <div class='entry-meta'>
-  <span class='posted-on'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-  <line x1="16" y1="2" x2="16" y2="6"/>
-  <line x1="8" y1="2" x2="8" y2="6"/>
-  <line x1="3" y1="10" x2="21" y2="10"/>
-
-</svg>
-<span class='screen-reader-text'>发布 </span>
-  <time class='entry-date' datetime='2020-01-10T22:47:45Z'>2020, Jan 10</time>
-</span>
-
-  
-  
-
-</div>
-
-
-  </div>
 </header>
 
-  
-  
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
 
-  <div class='container entry-content'>
-  <p>　　2020年的第二周，也是这个新十年“完整的”第一周就这么过去了。似乎这是颇不宁静的一周：美国和伊朗的纠纷加剧，好像起先是美国击杀了伊朗的一位高级将领，然后伊朗扬言报复美国，对美国宣战，川普就在推特上说什么“要用漂亮的武器回击他们”，伊朗遂又把美国五角大楼定性为“恐怖组织”之类的，总之是乱得不行。</p>
-<p>跟班上的同学聊天时讨论到此事，大家都是半开玩笑地说什么“赶紧开打”啊，我也只能附和几句。但说实话，谁又希望打起来呢？看报纸上说中法俄几国领导人呼吁和平，虽然看着有点“事不关己”的感觉，但和平肯定比打仗要好吧。打仗这件事，不管谁输谁赢，实则两败俱伤，到头来都是双方的人民受伤。就像初中学过的古诗“兴，百姓苦；亡，百姓苦”那样。
-　　这周参加了高三的第六次月考。考试对高三党来说本是常态，但每每因为“这样或那样的原因”发挥不好，也总是让人难受不堪。特别是当父母知道自己成绩之后，回到家三个人坐在桌边默默吃饭一声不坑时，心里其实难受的要死。距离高考大概只有一百五十天了，一轮复习也渐渐接近了尾声。说实话吧，感觉半年来的一轮复习，自己好像啥都没学到似的，水平毫无长进，成绩起起伏伏，难题做不出，简单题还会出错。该怎么办呢，自己也不知道。想刷题，没有时间更没有毅力；想看书，书看了一遍又一遍却没有进脑子。我大概是遇到瓶颈了吧。希望船到桥头自然直，尽管这可能只是“希望”。
-　　说到考试，就能联想到我们学校购买的阅卷系统“智学网”。这是何等垃圾大家应该清楚。从几个月前老师跟我们“推荐”购买其“个性化学习服务”开始，我就意识到这不是什么好东西。三四百一科的价格，购买了个锤子东西？我常常以“开源爱好者”“开源拥护者”自居，而此等零成本天价服务，让人简直无可忍。开源世界最吸引我的，是它的自由与分享精神，与因特网的开放包容不谋而合。国家也认识到这一点，大力推进开源事业发展；然“智学网”这样的半灰色产业为什么还活跃在广大教学一线呢？不可理喻。
-　　又想到现在教育行业的胡乱定价问题。学校更换的六百块钱一盏的“护眼LED灯”是什么东西？科×讯飞三四千块钱的“学习平板电脑”又是什么东西？这些生产“教育用品”的企业，仗着购买设备的钱是国家出学校出，定出这些动动脚趾头都觉得不对劲的神奇价格，实在是令人发指。又想到初中时花了五百大洋购买的“口语一百”，现在去看看其首页，“清睿国际教育”，让人笑得喘不过气。可悲的是，仍然有相当数量的家长们、老师们乃至学校们，正在将大笔大笔的钱投到这样的坑中。呜呼哀哉！
-　　这周有一位好友十八岁生日，于是买了一本《我是谁？》送给他。从书名大概可以看出，这是一本哲学科普著作。哲学被称为其他学科的理论指引是无不有其道理的。她从灵魂的层面指导着人的行为。这本书我自己并没有看过，希望未来的某天能与它邂逅吧。
-　　这周想写的东西就到这里了。希望自己能坚持下去。</p>
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">第二周</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年1月10日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E9%9A%8F%E6%83%B3'>随想</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p>2020年的第二周，也是这个新十年“完整的”第一周就这么过去了。似乎这是颇不宁静的一周：美国和伊朗的纠纷加剧，好像起先是美国击杀了伊朗的一位高级将领，然后伊朗扬言报复美国，对美国宣战，川普就在推特上说什么“要用漂亮的武器回击他们”，伊朗遂又把美国五角大楼定性为“恐怖组织”之类的，总之是乱得不行。</p>
+<p>跟班上的同学聊天时讨论到此事，大家都是半开玩笑地说什么“赶紧开打”啊，我也只能附和几句。但说实话，谁又希望打起来呢？看报纸上说中法俄几国领导人呼吁和平，虽然看着有点“事不关己”的感觉，但和平肯定比打仗要好吧。打仗这件事，不管谁输谁赢，实则两败俱伤，到头来都是双方的人民受伤。就像初中学过的古诗“兴，百姓苦；亡，百姓苦”那样。</p>
+<p>这周参加了高三的第六次月考。考试对高三党来说本是常态，但每每因为“这样或那样的原因”发挥不好，也总是让人难受不堪。特别是当父母知道自己成绩之后，回到家三个人坐在桌边默默吃饭一声不坑时，心里其实难受的要死。距离高考大概只有一百五十天了，一轮复习也渐渐接近了尾声。说实话吧，感觉半年来的一轮复习，自己好像啥都没学到似的，水平毫无长进，成绩起起伏伏，难题做不出，简单题还会出错。该怎么办呢，自己也不知道。想刷题，没有时间更没有毅力；想看书，书看了一遍又一遍却没有进脑子。我大概是遇到瓶颈了吧。希望船到桥头自然直，尽管这可能只是“希望”。</p>
+<p>说到考试，就能联想到我们学校购买的阅卷系统“智学网”。这是何等垃圾大家应该清楚。从几个月前老师跟我们“推荐”购买其“个性化学习服务”开始，我就意识到这不是什么好东西。三四百一科的价格，购买了个锤子东西？我常常以“开源爱好者”“开源拥护者”自居，而此等零成本天价服务，让人简直无可忍。开源世界最吸引我的，是它的自由与分享精神，与因特网的开放包容不谋而合。国家也认识到这一点，大力推进开源事业发展；然“智学网”这样的半灰色产业为什么还活跃在广大教学一线呢？不可理喻。</p>
+<p>又想到现在教育行业的胡乱定价问题。学校更换的六百块钱一盏的“护眼LED灯”是什么东西？科×讯飞三四千块钱的“学习平板电脑”又是什么东西？这些生产“教育用品”的企业，仗着购买设备的钱是国家出学校出，定出这些动动脚趾头都觉得不对劲的神奇价格，实在是令人发指。又想到初中时花了五百大洋购买的“口语一百”，现在去看看其首页，“清睿国际教育”，让人笑得喘不过气。可悲的是，仍然有相当数量的家长们、老师们乃至学校们，正在将大笔大笔的钱投到这样的坑中。呜呼哀哉！</p>
+<p>这周有一位好友十八岁生日，于是买了一本《我是谁？》送给他。从书名大概可以看出，这是一本哲学科普著作。哲学被称为其他学科的理论指引是无不有其道理的。她从灵魂的层面指导着人的行为。这本书我自己并没有看过，希望未来的某天能与它邂逅吧。</p>
+<p>这周想写的东西就到这里了。希望自己能坚持下去。</p>
+        </div>
+
+        
+<div class="post-archive">
+    <ul class="post-copyright">
+        <li><strong>原文作者：</strong><a rel="author" href="http://criwits.me">Hans Wan</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://criwits.me/post/week-2/">http://criwits.me/post/week-2/</a></li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+    </ul>
+</div>
+<br/>
+
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/prelogue/">序</a></li>
+        
+        <li><a href="/archives/">归档</a></li>
+        
+        <li><a href="/search/">搜索</a></li>
+        
+    </ul>
 </div>
 
-  
-<footer class='entry-footer'>
-  <div class='container sep-before'><div class='categories'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+
+        <div class="post-meta meta-tags">
+            
+            没有标签
+            
+        </div>
+    </article>
     
     
-    <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
 
-</svg>
-<span class='screen-reader-text'>分类: </span><a class='category' href='/categories/%E5%91%A8%E8%AF%84/'>周评</a></div>
+    
+    
+</div>
 
-  </div>
+                    <footer id="footer">
+    <div>
+        &copy; 2021 <a href="http://criwits.me">CRIWITS | Hans Wan 的博客 By Hans Wan</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/criwits" target="_black"><span class="badge-subject">Copyright</span><span class="badge-value bg-brightgreen">Hans Wan (criwits)</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
 </footer>
 
 
-</article>
-
-<nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='/post/prelogue/'>
-        <span aria-hidden='true'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/douban.js'></script>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='http://criwits.me/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="http://criwits.me">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
     
-  <line x1="20" y1="12" x2="4" y2="12"/>
-  <polyline points="10 18 4 12 10 6"/>
-
-</svg>
- 上一个</span>
-        <span class='screen-reader-text'>上一篇文章: </span>序</a>
-    </div><div class='next-entry sep-before'>
-      <a href='/post/tower/'>
-        <span class='screen-reader-text'>下一篇文章: </span>灯塔<span aria-hidden='true'>下一个 <svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
     
+    <li>
+        <a href="http://criwits.me/post/playing-with-Windows/" title="一台新 Windows 电脑的折腾日记">一台新 Windows 电脑的折腾日记</a>
+    </li>
     
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-
-</svg>
-</span>
-      </a>
-    </div></div>
-</nav>
-
-
-
-
-      </main>
-
-      <footer id='footer' class='footer'>
-        <div class='container sep-before'><section class='widget widget-social_menu sep-after'><nav aria-label='社交菜单'>
-    <ul><li>
-        <a href='https://github.com/criwits' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>在新标签打开Github的账户</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    <li>
+        <a href="http://criwits.me/post/playing-with-Linux/" title="Linux折腾笔记">Linux折腾笔记</a>
+    </li>
     
+    <li>
+        <a href="http://criwits.me/post/soviet-union-cheers-wuhan-up/" title="苏维埃社会主义共和国联盟致中国人民的公开信">苏维埃社会主义共和国联盟致中国人民的公开信</a>
+    </li>
     
-      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    <li>
+        <a href="http://criwits.me/post/week-6and7/" title="第六周&amp;第七周">第六周&amp;第七周</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/week-5/" title="第五周">第五周</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/happy-chinese-new-year/" title="我的庚子（鼠）年新春贺词">我的庚子（鼠）年新春贺词</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/new-illness/" title="有感于2019—2020新型冠状病毒肺炎事件">有感于2019—2020新型冠状病毒肺炎事件</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/week-3/" title="第三周">第三周</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/tower/" title="灯塔">灯塔</a>
+    </li>
+    
+    <li>
+        <a href="http://criwits.me/post/week-2/" title="第二周">第二周</a>
+    </li>
+    
+</ul>
+    </section>
 
-</svg>
-</a>
-      </li><li>
-        <a href='mailto:hanswan@tom.com' target='_blank' rel='noopener me'>
-          <span class='screen-reader-text'>通过邮件联系</span><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
     
-    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
-</svg>
-</a>
-      </li></ul>
-  </nav>
-</section><div class='copyright'>
-  <p> &copy; 2016-2021 Hans Wan </p>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
+<ul class="widget-list">
+    
+    <li><a href="http://criwits.me/categories/%E6%8A%80%E6%9C%AF/">技术 (2)</a></li>
+    
+    <li><a href="http://criwits.me/categories/%E6%95%85%E4%BA%8B/">故事 (2)</a></li>
+    
+    <li><a href="http://criwits.me/categories/%E9%9A%8F%E6%83%B3/">随想 (7)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
+<div class="tagcloud">
+    
 </div>
+    </section>
 
+    
+<section class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="http://www.chiro.work/" title="Chiro 的博客">Chiro 的博客</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="http://criwits.me/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
         </div>
-      </footer>
-
     </div>
-  </div><script>window.__assets_js_src="/assets/js/"</script>
-
-<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
-
 </body>
 
 </html>
-

@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on CRIWITS — Hans Wan 的博客</title>
+    <title>Posts on CRIWITS | Hans Wan 的博客</title>
     <link>http://criwits.me/post/</link>
-    <description>Recent content in Posts on CRIWITS — Hans Wan 的博客</description>
+    <description>Recent content in Posts on CRIWITS | Hans Wan 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
     <lastBuildDate>Tue, 04 Aug 2020 20:23:52 +0000</lastBuildDate><atom:link href="http://criwits.me/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一台新 Windows 电脑的折腾日记</title>
-      <link>http://criwits.me/post/playing-with-windows/</link>
+      <link>http://criwits.me/post/playing-with-Windows/</link>
       <pubDate>Tue, 04 Aug 2020 20:23:52 +0000</pubDate>
       
-      <guid>http://criwits.me/post/playing-with-windows/</guid>
+      <guid>http://criwits.me/post/playing-with-Windows/</guid>
       <description>&lt;p&gt;近日，Hans 的一朋友 &lt;strong&gt;Green Dragonfly&lt;/strong&gt; 购买了一台新机，型号是联想的 Y7000P（i7-10875H，32GB 内存，1TB 固态硬盘，预装 Windows 10）。入手第二天，他便携机来访寒舍，想一起给电脑安些常用软件，做些优化。为使得我们的折腾过程有个记录，特开此文，一一记之。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Linux折腾笔记</title>
-      <link>http://criwits.me/post/playing-with-linux/</link>
+      <link>http://criwits.me/post/playing-with-Linux/</link>
       <pubDate>Thu, 12 Mar 2020 23:23:39 +0000</pubDate>
       
-      <guid>http://criwits.me/post/playing-with-linux/</guid>
+      <guid>http://criwits.me/post/playing-with-Linux/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;这是我在日常使用Linux的过程中积累的一些笔记，供自己日后参考。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -32,11 +33,11 @@
       <pubDate>Mon, 24 Feb 2020 08:25:27 +0000</pubDate>
       
       <guid>http://criwits.me/post/soviet-union-cheers-wuhan-up/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;(纯属虚构)&lt;/strong&gt;
-武汉、湖北和全中国的达瓦里氏：
-Товарищи в Ухане, Хубэй и Китае,
-　　首先，请让我们全党、苏维埃和全体苏联人民恭祝你们庚子年新春快乐！
-　　Прежде всего, давайте, вся партия, Советы и все советские люди желают вам счастливого китайского Нового года!&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;(纯属虚构)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;武汉、湖北和全中国的达瓦里氏：&lt;/p&gt;
+&lt;p&gt;Товарищи в Ухане, Хубэй и Китае,&lt;/p&gt;
+&lt;p&gt;首先，请让我们全党、苏维埃和全体苏联人民恭祝你们庚子年新春快乐！&lt;/p&gt;
+&lt;p&gt;Прежде всего, давайте, вся партия, Советы и все советские люди желают вам счастливого китайского Нового года!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -45,7 +46,7 @@
       <pubDate>Sun, 16 Feb 2020 23:33:21 +0000</pubDate>
       
       <guid>http://criwits.me/post/week-6and7/</guid>
-      <description>&lt;p&gt;　　人总是懒惰的。本该在上周写成的“第六周”周评压根没有写，干脆和这周的一起写了。&lt;/p&gt;</description>
+      <description>&lt;p&gt;人总是懒惰的。本该在上周写成的“第六周”周评压根没有写，干脆和这周的一起写了。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -57,8 +58,8 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;“Can we restart 2020?”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;　　这篇文章本应该在1月31日写完并发布，但由于自己的拖延症，直到今天才开始写稿。
-　　在过去的一个多星期内，我们目睹了新型冠状病毒引起的肺炎（武汉肺炎、新冠肺炎）的大爆发。&lt;/p&gt;</description>
+&lt;p&gt;这篇文章本应该在1月31日写完并发布，但由于自己的拖延症，直到今天才开始写稿。&lt;/p&gt;
+&lt;p&gt;在过去的一个多星期内，我们目睹了新型冠状病毒引起的肺炎（新冠肺炎）的大爆发。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,18 +68,18 @@
       <pubDate>Fri, 24 Jan 2020 18:36:33 +0000</pubDate>
       
       <guid>http://criwits.me/post/happy-chinese-new-year/</guid>
-      <description>&lt;p&gt;　　庚子（鼠）年就要到了，我在自家卧室为自己送上美好的新年祝福。&lt;/p&gt;
-&lt;p&gt;　　时光的大河缓缓向前流淌，偶尔巨浪滔天，有时停滞不前。小老鼠接着小猪的尾巴，跑上了时光的前线。十二生肖走完了一个轮回，又将开启下一个十二年。回望自己的过去这年，该遇见的、不该遇见的，也许都遇见了；该发生的、不该发生的，最终也过去了。&lt;/p&gt;</description>
+      <description>&lt;p&gt;庚子（鼠）年就要到了，我在自家卧室为自己送上美好的新年祝福。&lt;/p&gt;
+&lt;p&gt;时光的大河缓缓向前流淌，偶尔巨浪滔天，有时停滞不前。小老鼠接着小猪的尾巴，跑上了时光的前线。十二生肖走完了一个轮回，又将开启下一个十二年。回望自己的过去这年，该遇见的、不该遇见的，也许都遇见了；该发生的、不该发生的，最终也过去了。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>有感于2019—2020武汉肺炎事件</title>
+      <title>有感于2019—2020新型冠状病毒肺炎事件</title>
       <link>http://criwits.me/post/new-illness/</link>
       <pubDate>Tue, 21 Jan 2020 23:17:01 +0000</pubDate>
       
       <guid>http://criwits.me/post/new-illness/</guid>
-      <description>&lt;p&gt;　　21世纪的第三个十年大概不会是平和的十年。当人们还沉浸在对过去成就的喜悦中时，新的麻烦悄然而至。
-　　近日，从武汉爆发的“2019新型冠状病毒”所引发的肺炎流行事件受到了广泛关注。&lt;/p&gt;</description>
+      <description>&lt;p&gt;21世纪的第三个十年大概不会是平和的十年。当人们还沉浸在对过去成就的喜悦中时，新的麻烦悄然而至。&lt;/p&gt;
+&lt;p&gt;近日，从武汉爆发的“2019新型冠状病毒”所引发的肺炎流行事件受到了广泛关注。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -87,7 +88,7 @@
       <pubDate>Fri, 17 Jan 2020 22:52:08 +0000</pubDate>
       
       <guid>http://criwits.me/post/week-3/</guid>
-      <description>&lt;p&gt;　　2020年的第三个星期马上走到了头。伊朗与美国之间“一触即发”的紧迫感尚未消散，而突如其来的“伊朗击落乌克兰客机”事件，则让事态进一步升级。一方面，两国之间互放狠话；另一方面，美国、伊朗国内都出现了民众游行活动，只是美国方面的游行是反对对伊朗展开制裁，伊朗方面则是表达对击落客机的不满。&lt;/p&gt;</description>
+      <description>&lt;p&gt;2020年的第三个星期马上走到了头。伊朗与美国之间“一触即发”的紧迫感尚未消散，而突如其来的“伊朗击落乌克兰客机”事件，则让事态进一步升级。一方面，两国之间互放狠话；另一方面，美国、伊朗国内都出现了民众游行活动，只是美国方面的游行是反对对伊朗展开制裁，伊朗方面则是表达对击落客机的不满。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -96,8 +97,8 @@
       <pubDate>Mon, 13 Jan 2020 22:50:49 +0000</pubDate>
       
       <guid>http://criwits.me/post/tower/</guid>
-      <description>&lt;p&gt;　　很久很久以前，人们在海岸边的悬崖上立了一座灯塔。
-　　灯塔并不是什么复杂的东西。她只是一座用青砖垒成的高塔——要说高也未必，大概十多米的样子——上面镶着一个玻璃笼子。据说那玻璃不一般，是一种特殊的透镜，能把光折射到很远很远的地方。而那玻璃笼子里面，一盏油灯、一团火焰，构成了这座灯塔内的全部。&lt;/p&gt;</description>
+      <description>&lt;p&gt;很久很久以前，人们在海岸边的悬崖上立了一座灯塔。&lt;/p&gt;
+&lt;p&gt;灯塔并不是什么复杂的东西。她只是一座用青砖垒成的高塔——要说高也未必，大概十多米的样子——上面镶着一个玻璃笼子。据说那玻璃不一般，是一种特殊的透镜，能把光折射到很远很远的地方。而那玻璃笼子里面，一盏油灯、一团火焰，构成了这座灯塔内的全部。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -106,7 +107,7 @@
       <pubDate>Fri, 10 Jan 2020 22:47:45 +0000</pubDate>
       
       <guid>http://criwits.me/post/week-2/</guid>
-      <description>&lt;p&gt;　　2020年的第二周，也是这个新十年“完整的”第一周就这么过去了。似乎这是颇不宁静的一周：美国和伊朗的纠纷加剧，好像起先是美国击杀了伊朗的一位高级将领，然后伊朗扬言报复美国，对美国宣战，川普就在推特上说什么“要用漂亮的武器回击他们”，伊朗遂又把美国五角大楼定性为“恐怖组织”之类的，总之是乱得不行。&lt;/p&gt;</description>
+      <description>&lt;p&gt;2020年的第二周，也是这个新十年“完整的”第一周就这么过去了。似乎这是颇不宁静的一周：美国和伊朗的纠纷加剧，好像起先是美国击杀了伊朗的一位高级将领，然后伊朗扬言报复美国，对美国宣战，川普就在推特上说什么“要用漂亮的武器回击他们”，伊朗遂又把美国五角大楼定性为“恐怖组织”之类的，总之是乱得不行。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -115,8 +116,8 @@
       <pubDate>Fri, 10 Jan 2020 18:02:40 +0000</pubDate>
       
       <guid>http://criwits.me/post/prelogue/</guid>
-      <description>&lt;p&gt;　　总想写点什么。
-　　我曾经尝试写日记。头几天很容易坚持，那会每天晚上都能拿出日记本写上几面纸。然而渐渐地，写的东西从原先的一天一篇变成了一天一段，再变成一天一句，最后本子被尘封在抽屉里暗无天日地度过了几个月。&lt;/p&gt;</description>
+      <description>&lt;p&gt;总想写点什么。&lt;/p&gt;
+&lt;p&gt;我曾经尝试写日记。头几天很容易坚持，那会每天晚上都能拿出日记本写上几面纸。然而渐渐地，写的东西从原先的一天一篇变成了一天一段，再变成一天一句，最后本子被尘封在抽屉里暗无天日地度过了几个月。&lt;/p&gt;</description>
     </item>
     
   </channel>
